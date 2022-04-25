@@ -408,7 +408,100 @@ async def Burundi(ctx):
   embed.add_field(name="Dialing Code",value="+257",inline=False)
   await ctx.send(embed=embed)
 
+  
+  
+  
+#Countries Staring with C
+@client.command()
+async def CaboVerde(ctx):
+  embed=discord.Embed(title="Cabo Verde",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Cabo Verde, officially the Republic of Cabo Verde, is an archipelago and island country in the central Atlantic Ocean, consisting of ten volcanic islands with a combined land area of about 4,033 square kilometres (1,557 sq mi). These islands lie between 600 to 850 kilometres (320 to 460 nautical miles) west of Cap-Vert, the westernmost point of continental Africa. The Cape Verde islands form part of the Macaronesia ecoregion, along with the Azores, the Canary Islands, Madeira, and the Savage Isles. ",inline=False)
+  embed.add_field(name="Capital",value="Praia",inline=False)
+  embed.add_field(name="Flag",value="<:flag_cv:968088541177470996>",inline=False)
+  embed.add_field(name="Population",value="483,628",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$4.32 billion",inline=False)
+  embed.add_field(name="Currency",value="Cape Verdean escudo",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -1",inline=False)
+  embed.add_field(name="Dialing Code",value="+238",inline=False)
+  await ctx.send(embed=embed)
 
+
+@client.command()
+async def Cambodia(ctx):
+  embed=discord.Embed(title="Cambodia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Cambodia, officially the Kingdom of Cambodia, is a country located in the southern portion of the Indochinese Peninsula in Southeast Asia. It is 181,035 square kilometres (69,898 square miles) in area, bordering Thailand to the northwest, Laos to the north, Vietnam to the east, and the Gulf of Thailand to the southwest. The nation's capital and largest city is Phnom Penh.",inline=False)
+  embed.add_field(name="Capital",value="Phnom Penh",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kh:968089919601905734>",inline=False)
+  embed.add_field(name="Population",value="15.5 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$76.63 billion",inline=False)
+  embed.add_field(name="Currency",value="Riel",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7",inline=False)
+  embed.add_field(name="Dialing Code",value="+855",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Cameroon(ctx):
+  embed=discord.Embed(title="Cameroon",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Cameroon, officially the Republic of Cameroon (French: République du Cameroun), is a country in west-central Africa. It is bordered by Nigeria to the west and north; Chad to the northeast; the Central African Republic to the east; and Equatorial Guinea, Gabon and the Republic of the Congo to the south. Its coastline lies on the Bight of Biafra, part of the Gulf of Guinea and the Atlantic Ocean. The country is sometimes identified as West African and other times as Central African, due to its strategic position at the crossroads between West and Central Africa. Its nearly 25 million people speak 250 native languages.",inline=False)
+  embed.add_field(name="Capital",value="Yaounde",inline=False)
+  embed.add_field(name="Flag",value="<:flag_cm:968090559031939112>",inline=False)
+  embed.add_field(name="Population",value="26.54 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$101.95 billion",inline=False)
+  embed.add_field(name="Currency",value="Central African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+237",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+@client.command()
+async def Canada(ctx):
+  embed=discord.Embed(title="Canada",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",inline=False)
+  embed.add_field(name="Capital",value="Ottowa",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ca:968091151699673118>",inline=False)
+  embed.add_field(name="Population",value="38.52 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.23 trillion",inline=False)
+  embed.add_field(name="Currency",value="Canadian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -3.5 to UTC -8",inline=False)
+  embed.add_field(name="Dialing Code",value="+1",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+
+@client.command()
+async def CentralAfricanRepublic(ctx):
+  embed=discord.Embed(title="Central African Republic",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The Central African Republic is a landlocked country in Central Africa. It is bordered by Chad to the north, Sudan to the northeast, South Sudan to the southeast, the DR Congo to the south, the Republic of the Congo to the southwest, and Cameroon to the west.",inline=False)
+  embed.add_field(name="Capital",value="Bangui",inline=False)
+  embed.add_field(name="Flag",value="<:flag_cf:968092021006958612>",inline=False)
+  embed.add_field(name="Population",value="4.66 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$4.26 billion",inline=False)
+  embed.add_field(name="Currency",value="Bitcoin",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+236",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+@client.command()
+async def Chad(ctx):
+  embed=discord.Embed(title="Chad",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Chad, officially known as the Republic of Chad, is a landlocked country at the crossroads of North and Central Africa. It is bordered by Libya to the north, Sudan to the east, the Central African Republic to the south, Cameroon to the south-west, Nigeria to the southwest (at Lake Chad), and Niger to the west. Chad has a population of 16 million, of which 1.6 million live in the capital and largest city N'Djamena",inline=False)
+  embed.add_field(name="Capital",value="N'Djamena",inline=False)
+  embed.add_field(name="Flag",value="<:flag_td:968092563624063046>",inline=False)
+  embed.add_field(name="Population",value="16.24 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$30 billion",inline=False)
+  embed.add_field(name="Currency",value="Central African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+235",inline=False)
+  await ctx.send(embed=embed)
 
 
 

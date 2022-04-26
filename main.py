@@ -1117,6 +1117,167 @@ async def Hungary(ctx):
 
 
 
+  
+ #Countries starting with I
+@client.command()
+async def Iceland(ctx):
+  embed=discord.Embed(title="Iceland",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Iceland is a Nordic island country in the North Atlantic Ocean and the most sparsely populated country in Europe. Iceland's capital and largest city is Reykjavík, which (along with its surrounding areas) is home to over 65% of the population. Iceland is the only part of the Mid-Atlantic Ridge that rises above sea level, and its central volcanic plateau is erupting almost constantly. The interior consists of a plateau characterised by sand and lava fields, mountains, and glaciers, and many glacial rivers flow to the sea through the lowlands. Iceland is warmed by the Gulf Stream and has a temperate climate, despite a high latitude just outside the Arctic Circle. Its high latitude and marine influence keep summers chilly, and most of its islands have a polar climate.",inline=False)
+  embed.add_field(name="Capital",value="Reykjavik",inline=False)
+  embed.add_field(name="Flag",value="<:flag_is:968536646209380432>",inline=False)
+  embed.add_field(name="Population",value="371,580",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$19.8 billion",inline=False)
+  embed.add_field(name="Currency",value="Icelandic krona",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+354",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def India(ctx):
+  embed=discord.Embed(title="India",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="India, officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[f] China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia. ",inline=False)
+  embed.add_field(name="Capital",value="New Delhi",inline=False)
+  embed.add_field(name="Flag",value="<:flag_in:968537125421215804>",inline=False)
+  embed.add_field(name="Population",value="1.35 billion",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$11.74 trillion",inline=False)
+  embed.add_field(name="Currency",value="Indian rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5:30",inline=False)
+  embed.add_field(name="Dialing Code",value="+91",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Indonesia(ctx):
+  embed=discord.Embed(title="Indonesia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea. Indonesia is the world's largest island country and the 14th-largest country by area, at 1,904,569 square kilometres (735,358 square miles). With about 270 million people, Indonesia is the world's fourth-most populous country and the most populous Muslim-majority country. Java, the world's most populous island, is home to more than half of the country's population.",inline=False)
+  embed.add_field(name="Capital",value="Jakarta",inline=False)
+  embed.add_field(name="Flag",value="<:flag_id:968545135581356134>",inline=False)
+  embed.add_field(name="Population",value="273.87 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$3.99 trillion",inline=False)
+  embed.add_field(name="Currency",value="Indonesian rupiah",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7 to UTC +9",inline=False)
+  embed.add_field(name="Dialing Code",value="+62",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Iran(ctx):
+  embed=discord.Embed(title="Iran",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Iran, also called Persia, and officially the Islamic Republic of Iran, is a country in Western Asia. It is bordered to the west by Iraq and Turkey, to the northwest by Azerbaijan and Armenia, to the north by the Caspian Sea and Turkmenistan, to the east by Afghanistan and Pakistan, and to the south by the Gulf of Oman and the Persian Gulf. Iran covers an area of 1,648,195 sq km (636,372 sq mi), making it the fourth-largest country entirely in Asia and the second-largest in Western Asia. It has a population of 85 million, making it the 17th-most populous country in the world. Its capital and largest city is Tehran.",inline=False)
+  embed.add_field(name="Capital",value="Tehran",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ir:968545969648058448>",inline=False)
+  embed.add_field(name="Population",value="83.18 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.57 trillion",inline=False)
+  embed.add_field(name="Currency",value="Iranian rial",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3:30 or UTC +4:30",inline=False)
+  embed.add_field(name="Dialing Code",value="+98",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Iraq(ctx):
+  embed=discord.Embed(title="Iraq",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Iraq, officially the Republic of Iraq (Arabic: جُمْهُورِيَّة ٱلْعِرَاق Jumhūriīyet al-ʿIrāq; Kurdish: کۆماری عێراق, romanized: Komarî Êraq), is a country in Western Asia. It is bordered by Turkey to the north, Iran to the east, the Persian Gulf and Kuwait to the southeast, Saudi Arabia to the south, Jordan to the southwest and Syria to the west. The capital and largest city is Baghdad. Iraq is home to diverse ethnic groups including Mesopotamian Arabs, Kurds, Turkmens, Assyrians, Armenians, Yazidis, Sabian-Mandaeans, Persians and Shabakis with similarly diverse geography and wildlife. The majority of the country's 40 million citizens are Muslims, and other recognized religions include Christianity, Yazidism, Mandaeism, Yarsanism and Zoroastrianism The official languages of Iraq are Arabic and Kurdish, with other recognized regional languages being English, Neo-Aramaic, Turkish and Armenian.",inline=False)
+  embed.add_field(name="Capital",value="Baghdad",inline=False)
+  embed.add_field(name="Flag",value="<:flag_iq:968551427104444466>",inline=False)
+  embed.add_field(name="Population",value="40.22 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$413.31 billion",inline=False)
+  embed.add_field(name="Currency",value="Iraqi dinar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+964",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Ireland(ctx):
+  embed=discord.Embed(title="Ireland",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Ireland, also known as the Republic of Ireland (Poblacht na hÉireann), is a country in north-western Europe consisting of 26 of the 32 counties of the island of Ireland. The capital and largest city is Dublin, on the eastern side of the island. Around 40% of the country's population of 5 million people resides in the Greater Dublin Area. The sovereign state shares its only land border with Northern Ireland, which is part of the United Kingdom. It is otherwise surrounded by the Atlantic Ocean, with the Celtic Sea to the south, St George's Channel to the south-east, and the Irish Sea to the east. It is a unitary, parliamentary republic.",inline=False)
+  embed.add_field(name="Capital",value="Dublin",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ie:968553309738786846>",inline=False)
+  embed.add_field(name="Population",value="5.01 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$561 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC or UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+353",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Israel(ctx):
+  embed=discord.Embed(title="Israel",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Israel, officially the State of Israel (מְדִינַת יִשְׂרָאֵל, Medīnat Yīsrāʾēl; دَوْلَة إِسْرَائِيل, Dawlat ʾIsrāʾīl), is a country in Western Asia. It is situated on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea, and shares borders with Lebanon to the north, Syria to the northeast, Jordan to the east, and Egypt to the southwest; it is also bordered by the Palestinian territories of the West Bank and the Gaza Strip to the east and west, respectively. Tel Aviv is the economic and technological center of the country, while its seat of government is in its proclaimed capital of Jerusalem, although Israeli sovereignty over East Jerusalem is unrecognized internationally.",inline=False)
+  embed.add_field(name="Capital",value="Tel Aviv (Jerusalem is not completely recognized as the capital)",inline=False)
+  embed.add_field(name="Flag",value="<:flag_il:968554260633636884>",inline=False)
+  embed.add_field(name="Population",value="9.5 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$478.01 billion",inline=False)
+  embed.add_field(name="Currency",value="New shekel",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+972",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Italy(ctx):
+  embed=discord.Embed(title="Italy",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Italy, officially the Italian Republic or Republic of Italy (Italian: Repubblica Italiana [reˈpubblika itaˈljaːna]), is a country consisting of a peninsula delimited by the Alps and several islands surrounding it, whose territory largely coincides with the homonymous geographical region. Italy is located in the middle of the Mediterranean Sea, in Southern Europe; it is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital and largest city, the country covers a total area of 301,230 sq km (116,310 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, as well as the enclaved microstates of Vatican City and San Marino. Italy has a territorial exclave in Switzerland, Campione. With over 60 million inhabitants, Italy is the third-most populous member state of the European Union.",inline=False)
+  embed.add_field(name="Capital",value="Rome",inline=False)
+  embed.add_field(name="Flag",value="<:flag_it:968555011548250223>",inline=False)
+  embed.add_field(name="Population",value="60.31 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.61 trillion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+39",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries starting with J
+@client.command()
+async def Jamaica(ctx):
+  embed=discord.Embed(title="Jamaica",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Jamaica, is an island country situated in the Caribbean Sea. Spanning 10,990 square kilometres (4,240 sq mi) in area, it is the third-largest island of the Greater Antilles and the Caribbean (after Cuba and Hispaniola). Jamaica lies about 145 kilometres (90 mi) south of Cuba, and 191 kilometres (119 mi) west of Hispaniola (the island containing the countries of Haiti and the Dominican Republic); the British Overseas Territory of the Cayman Islands lies some 215 kilometres (134 mi) to the north-west.",inline=False)
+  embed.add_field(name="Capital",value="Kingston",inline=False)
+  embed.add_field(name="Flag",value="<:flag_jm:968555950829076501>",inline=False)
+  embed.add_field(name="Population",value="2.72 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$26.98 billion",inline=False)
+  embed.add_field(name="Currency",value="Jamaican dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -5",inline=False)
+  embed.add_field(name="Dialing Code",value="+1-876",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Japan(ctx):
+  embed=discord.Embed(title="Japan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south. Japan is a part of the Ring of Fire, and spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu (the mainland), Shikoku, Kyushu, and Okinawa. Tokyo is the nation's capital and largest city; other major cities include Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe, and Kyoto. ",inline=False)
+  embed.add_field(name="Capital",value="Tokyo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_jp:968556515332075570>",inline=False)
+  embed.add_field(name="Population",value="125.50 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$6.11 trillion",inline=False)
+  embed.add_field(name="Currency",value="Japanese yen",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +9",inline=False)
+  embed.add_field(name="Dialing Code",value="+81",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Jordan(ctx):
+  embed=discord.Embed(title="Jordan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Jordan, officially the Hashemite Kingdom of Jordan, is a country in Western Asia. It is situated at the crossroads of Asia, Africa and Europe, within the Levant region, on the East Bank of the Jordan River. Jordan is bordered by Saudi Arabia to the south and east, Iraq to the northeast, Syria to the north, and Israel, the Palestinian West Bank, and the Dead Sea to the west. In the southwest, it has a 26 km (16 mi) coastline on the Gulf of Aqaba in the Red Sea. The Gulf of Aqaba separates Jordan from Egypt. Amman is Jordan's capital and largest city, as well as its economic, political, and cultural centre.",inline=False)
+  embed.add_field(name="Capital",value="Amman",inline=False)
+  embed.add_field(name="Flag",value="<:flag_jo:968557354180313118>",inline=False)
+  embed.add_field(name="Population",value="11.04 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$102.15 million",inline=False)
+  embed.add_field(name="Currency",value="Jordanian dinar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+962",inline=False)
+  await ctx.send(embed=embed) 
+  
+  
 
 
 keep_alive()

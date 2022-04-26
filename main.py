@@ -911,6 +911,166 @@ async def France(ctx):
   await ctx.send(embed=embed)  
   
 
+  
+ #Countries Starting with G
+@client.command()
+async def Gabon(ctx):
+  embed=discord.Embed(title="Gabon",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Gabon, officially the Gabonese Republic (French: République gabonaise), is a country on the west coast of Central Africa. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. It has an area of nearly 270,000 square kilometres (100,000 sq mi) and its population is estimated at 2.1 million people. There are three distinct regions: the coastal plains, the mountains (the Cristal Mountains and the Chaillu Massif in the centre), and the savanna in the east. Gabon's capital and largest city is Libreville. The official language is French.",inline=False)
+  embed.add_field(name="Capital",value="Libreville",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ga:968471203213901864>",inline=False)
+  embed.add_field(name="Population",value="2.11 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$37.82 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+241",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def TheGambia(ctx):
+  embed=discord.Embed(title="The Gambia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The Gambia, officially the Republic of The Gambia, is a country in West Africa. It is the smallest country within mainland Africa and is surrounded by Senegal, except for its western coast on the Atlantic Ocean. The Gambia is situated on both sides of the lower reaches of the Gambia River, the nation's namesake, which flows through the centre of the Gambia and empties into the Atlantic Ocean. It has an area of 10,689 square kilometres (4,127 sq mi) with a population of 1,857,181 as of the April 2013 census. Banjul is the Gambian capital and the country's largest metropolitan area. The largest cities are Serekunda and Brikama.",inline=False)
+  embed.add_field(name="Capital",value="Banjul",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gm:968473190592553041>",inline=False)
+  embed.add_field(name="Population",value="2.17 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$5.42 billion",inline=False)
+  embed.add_field(name="Currency",value="Dalasi",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+220",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Georgia(ctx):
+  embed=discord.Embed(title="Georgia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Georgia, is a country located in the Caucasus, at the intersection of Eastern Europe and Western Asia. It is bounded by the Black Sea to the west, by Russia to the north and east, by Turkey to the southwest, by Armenia to the south, and by Azerbaijan to the southeast. The country covers an area of 69,700 square kilometres (26,900 sq mi), and has a population of 3.7 million people (excluding the Russian-occupied Georgian territories). Georgia is a representative democracy governed as a unitary parliamentary republic. Tbilisi is its capital as well as its largest city, and is home to roughly a third of the Georgian population.",inline=False)
+  embed.add_field(name="Capital",value="Tbilisi",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ge:968473634278621184>",inline=False)
+  embed.add_field(name="Population",value="3.72 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$61.58 million",inline=False)
+  embed.add_field(name="Currency",value="Georgian lari",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +4",inline=False)
+  embed.add_field(name="Dialing Code",value="+995",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Germany(ctx):
+  embed=discord.Embed(title="Germany",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Germany, officially the Federal Republic of Germany, is a country in Central Europe. It is the second most populous country in Europe after Russia, and the most populous member state of the European Union. Germany is situated between the Baltic and North seas to the north, and the Alps to the south; it covers an area of 357,022 square kilometres (137,847 sq mi), with a population of over 83 million within its 16 constituent states. Germany borders Denmark to the north, Poland and the Czech Republic to the east, Austria and Switzerland to the south, and France, Luxembourg, Belgium, and the Netherlands to the west. The nation's capital and largest city is Berlin, and its financial centre is Frankfurt; the largest urban area is the Ruhr.",inline=False)
+  embed.add_field(name="Capital",value="Berlin",inline=False)
+  embed.add_field(name="Flag",value="<:flag_de:968474812718665738>",inline=False)
+  embed.add_field(name="Population",value="83.19 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$4.31 trillion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+49",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Ghana(ctx):
+  embed=discord.Embed(title="Ghana",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Ghana, officially the Republic of Ghana, is a country in West Africa. It spans the Gulf of Guinea and the Atlantic Ocean to the south, sharing borders with the Ivory Coast in the west, Burkina Faso in the north, and Togo in the east. Ghana covers an area of 238,535 sq km (92,099 sq mi), spanning diverse biomes that range from coastal savannas to tropical rain forests. With over 31 million people, Ghana is the second-most populous country in West Africa, after Nigeria. The capital and largest city is Accra; other major cities are Kumasi, Tamale, and Sekondi-Takoradi.",inline=False)
+  embed.add_field(name="Capital",value="Accra",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gh:968475477473910785>",inline=False)
+  embed.add_field(name="Population",value="32.10 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$226 billion",inline=False)
+  embed.add_field(name="Currency",value="Cedi",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+233",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Greece(ctx):
+  embed=discord.Embed(title="Greece",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Greece, officially the Hellenic Republic, is a country in Southeast Europe. It is situated on the southern tip of the Balkans, and is located at the crossroads of Europe, Asia, and Africa. Greece shares land borders with Albania to the northwest, North Macedonia and Bulgaria to the north, and Turkey to the northeast. The Aegean Sea lies to the east of the mainland, the Ionian Sea to the west, and the Sea of Crete and the Mediterranean Sea to the south. Greece has the longest coastline on the Mediterranean Basin, featuring thousands of islands. The country consists of nine traditional geographic regions, and has a population of approximately 10.7 million. Athens is the nation's capital and largest city, followed by Thessaloniki. ",inline=False)
+  embed.add_field(name="Capital",value="Athens",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gr:968476274072911903>",inline=False)
+  embed.add_field(name="Population",value="10.67 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$378.69 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+30",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Grenada(ctx):
+  embed=discord.Embed(title="Grenada",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Grenada, is an island country in the West Indies in the Caribbean Sea at the southern end of the Grenadines island chain. Grenada consists of the island of Grenada itself, two smaller islands, Carriacou and Petite Martinique, and several small islands which lie to the north of the main island and are a part of the Grenadines. It is located northwest of Trinidad and Tobago, northeast of Venezuela and southwest of Saint Vincent and the Grenadines. Its size is 348.5 square kilometres (134.6 sq mi), and it had an estimated population of 112,523 in July 2020. Its capital is St. George's. Grenada is also known as the Island of Spice due to its production of nutmeg and mace crops.",inline=False)
+  embed.add_field(name="Capital",value="St. George's",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gd:968477117568385024>",inline=False)
+  embed.add_field(name="Population",value="111,454",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.8 billion",inline=False)
+  embed.add_field(name="Currency",value="East Carribean dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+1-473",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+@client.command()
+async def Guatemala(ctx):
+  embed=discord.Embed(title="Guatemala",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Guatemala, officially the Republic of Guatemala (Spanish: República de Guatemala), is a country in Central America, bordered by Mexico to the north and west, Belize and the Caribbean to the northeast, Honduras to the east, El Salvador to the southeast and the Pacific Ocean to the south. With an estimated population of around 17.2 million, it is the most populous country in Central America and is the 11th most populous country in the Americas. Guatemala is a representative democracy; its capital and largest city is Nueva Guatemala de la Asunción, also known as Guatemala City, the largest city in Central America. ",inline=False)
+  embed.add_field(name="Capital",value="Guatemala City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gt:968477683119951922>",inline=False)
+  embed.add_field(name="Population",value="17.26 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$145.24 billion",inline=False)
+  embed.add_field(name="Currency",value="Quetzal",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -6",inline=False)
+  embed.add_field(name="Dialing Code",value="+502",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Guinea(ctx):
+  embed=discord.Embed(title="Guinea",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Guinea, officially the Republic of Guinea (French: République de Guinée; Pular: 𞤈𞤫𞤲𞤣𞤢𞥄𞤲𞤣𞤭 𞤘𞤭𞤲𞤫; N'Ko: ߖߌ߬ߣߍ߫), is a coastal country in West Africa. Guinea borders the Atlantic Ocean to the west, Guinea-Bissau to the northwest, Senegal to the north, Mali to the northeast, Cote d'Ivoire to the southeast, and Sierra Leone and Liberia to the south. Formerly known as French Guinea (French: Guinée française), the modern country is sometimes referred to as Guinea-Conakry after its capital Conakry, to distinguish it from other territories in the eponymous region such as Guinea-Bissau and Equatorial Guinea. Guinea has a population of 12.4 million and an area of 245,857 square kilometres (94,926 sq mi).",inline=False)
+  embed.add_field(name="Capital",value="Conakry",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gn:968478912063623228>",inline=False)
+  embed.add_field(name="Population",value="12.41 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$26.45 billion",inline=False)
+  embed.add_field(name="Currency",value="Guinean franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+224",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def GuineaBissau(ctx):
+  embed=discord.Embed(title="Guinea Bissau",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Guinea Bissau, officially the Republic of Guinea-Bissau (Portuguese: República da Guiné-Bissau [ʁɛˈpuβlikɐ ðɐ ɣiˈnɛ βiˈsaw]), is a country in West Africa that covers 36,125 square kilometres (13,948 sq mi) with an estimated population of 1,726,000. It borders Senegal to the north and Guinea to the south-east.",inline=False)
+  embed.add_field(name="Capital",value="Bissau",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gw:968479395125821440>",inline=False)
+  embed.add_field(name="Population",value="1.72 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$3.8 billion",inline=False)
+  embed.add_field(name="Currency",value="West African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+245",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Guyana(ctx):
+  embed=discord.Embed(title="Guyana",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Guyana, officially the Co‑operative Republic of Guyana, is a country on the northern mainland of South America. The capital city is Georgetown. Guyana is bordered by the Atlantic Ocean to the north, Brazil to the south and southwest, Venezuela to the west, and Suriname to the east. With 215,000 square kilometres (83,000 sq mi), Guyana is the third-smallest sovereign state by area in mainland South America after Uruguay and Suriname, and is the second-least populous sovereign state in South America after Suriname; it is also one of the least densely populated countries on Earth. It has a wide variety of natural habitats and very high biodiversity.",inline=False)
+  embed.add_field(name="Capital",value="Georgetown",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gy:968480194467864606>",inline=False)
+  embed.add_field(name="Population",value="743,700",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$18.35 billion",inline=False)
+  embed.add_field(name="Currency",value="Guyanese dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+592",inline=False)
+  await ctx.send(embed=embed) 
+  
+  
 
 keep_alive()
 TOKEN=os.environ.get("DISCORD_BOT_SECRET")

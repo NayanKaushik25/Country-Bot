@@ -1070,7 +1070,54 @@ async def Guyana(ctx):
   embed.add_field(name="Dialing Code",value="+592",inline=False)
   await ctx.send(embed=embed) 
   
-  
+ 
+
+#Countries starting with H
+@client.command()
+async def Haiti(ctx):
+  embed=discord.Embed(title="Haiti",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Haiti, officially the Republic of Haiti (French: République d'Haïti; Haitian Creole: Repiblik d Ayiti),[11] and formerly known as Hayti,[note 1] is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean Sea, to the east of Cuba and Jamaica and south of The Bahamas and the Turks and Caicos Islands. It occupies the western three-eighths of the island which it shares with the Dominican Republic. To its south-west lies the small Navassa Island, which is claimed by Haiti but is disputed as a United States territory under federal administration.[19][20] Haiti is 27,750 sq km (10,714 sq mi) in size, the third largest country in the Caribbean by area, and has an estimated population of 11.4 million, making it the most populous country in the Caribbean. The capital is Port-au-Prince",inline=False)
+  embed.add_field(name="Capital",value="Port-au-Prince",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ht:968486556711157810>",inline=False)
+  embed.add_field(name="Population",value="11.43 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$34.18 billion",inline=False)
+  embed.add_field(name="Currency",value="Gourde",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -5 to UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+509",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Honduras(ctx):
+  embed=discord.Embed(title="Honduras",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Honduras, officially the Republic of Honduras, is a country in Central America. The republic of Honduras is bordered to the west by Guatemala, to the southwest by El Salvador, to the southeast by Nicaragua, to the south by the Pacific Ocean at the Gulf of Fonseca, and to the north by the Gulf of Honduras, a large inlet of the Caribbean Sea. Its capital and largest city is Tegucigalpa.",inline=False)
+  embed.add_field(name="Capital",value="Tegucigalpa",inline=False)
+  embed.add_field(name="Flag",value="<:flag_hn:968487993008599120>",inline=False)
+  embed.add_field(name="Population",value="9.58 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$49.01 billion",inline=False)
+  embed.add_field(name="Currency",value="Lempira",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -6",inline=False)
+  embed.add_field(name="Dialing Code",value="+504",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Hungary(ctx):
+  embed=discord.Embed(title="Hungary",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Hungary, Hungary (Hungarian: Magyarország [ˈmɒɟɒrorsaːɡ]) is a landlocked country in Central Europe. Spanning 93,030 square kilometres (35,920 sq mi) of the Carpathian Basin, it is bordered by Slovakia to the north, Ukraine to the northeast, Romania to the east and southeast, Serbia to the south, Croatia and Slovenia to the southwest and Austria to the west. Hungary has a population of nearly 10 million, mostly ethnic Hungarians and a significant Romani minority. Hungarian, the official language, is the world's most widely spoken Uralic language and among the few non-Indo-European languages widely spoken in Europe. Budapest is the country's capital and largest city; other major urban areas include Debrecen, Szeged, Miskolc, Pécs and Győr.",inline=False)
+  embed.add_field(name="Capital",value="Budapest",inline=False)
+  embed.add_field(name="Flag",value="<:flag_hu:968489326172315749>",inline=False)
+  embed.add_field(name="Population",value="9.73 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$359.90 billion",inline=False)
+  embed.add_field(name="Currency",value="Forint",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+36",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
 
 keep_alive()
 TOKEN=os.environ.get("DISCORD_BOT_SECRET")

@@ -461,7 +461,7 @@ async def Cameroon(ctx):
 async def Canada(ctx):
   embed=discord.Embed(title="Canada",color=discord.Colour.red())
   embed.add_field(name="Basic Info",value="Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",inline=False)
-  embed.add_field(name="Capital",value="Ottowa",inline=False)
+  embed.add_field(name="Capital",value="Ottawa",inline=False)
   embed.add_field(name="Flag",value="<:flag_ca:968091151699673118>",inline=False)
   embed.add_field(name="Population",value="38.52 million",inline=False)
   embed.add_field(name="GDP (PPP)",value="$2.23 trillion",inline=False)

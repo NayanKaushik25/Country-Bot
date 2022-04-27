@@ -1278,6 +1278,83 @@ async def Jordan(ctx):
   await ctx.send(embed=embed) 
   
   
+  
+#Countries starting with K
+@client.command()
+async def Kazakhstan(ctx):
+  embed=discord.Embed(title="Kazakhstan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Kazakhstan, officially the Republic of Kazakhstan, is a transcontinental country located mainly in Central Asia and partly in Eastern Europe. It borders Russia to the north and west, China to the east, Kyrgyzstan to the southeast, Uzbekistan to the south, and Turkmenistan to the southwest. Its capital is Nur-Sultan, formerly known as Astana until 2019. Almaty, Kazakhstan's largest city, was the country's capital until 1997. Kazakhstan is the world's largest landlocked country, the world's largest Muslim-majority country by land area (and the northernmost), and the ninth-largest country in the world overall. It has a population of 19 million people, and one of the lowest population densities in the world, at fewer than 6 people per square kilometre (15 people per square mile).",inline=False)
+  embed.add_field(name="Capital",value="Nur-Sultan",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kz:968698022336790548>",inline=False)
+  embed.add_field(name="Population",value="19.08 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$569.81 billion",inline=False)
+  embed.add_field(name="Currency",value="Tenge",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5 or UTC +6",inline=False)
+  embed.add_field(name="Dialing Code",value="+7-6 or +7-7",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+@client.command()
+async def Kenya(ctx):
+  embed=discord.Embed(title="Kenya",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Kenya, officially the Republic of Kenya (Swahili: Jamhuri ya Kenya), is a country in Eastern Africa. At 580,367 square kilometres (224,081 sq mi), Kenya is the world's 48th largest country by area. With a population of more than 47.6 million in the 2019 census, Kenya is the 29th most populous country in the world. Kenya's capital and largest city is Nairobi, while its oldest, currently second largest city, and first capital is the coastal city of Mombasa. Kisumu City is the third-largest city and also an inland port on Lake Victoria. Other important urban centres include Nakuru and Eldoret. As of 2020, Kenya is the third-largest economy in sub-Saharan Africa after Nigeria and South Africa. Kenya is bordered by South Sudan to the northwest, Ethiopia to the north, Somalia to the east, Uganda to the west, Tanzania to the south, and the Indian Ocean to the southeast. Its geography, climate and population vary widely, ranging from cold snow-capped mountaintops (Batian, Nelion and Point Lenana on Mount Kenya) with vast surrounding forests, wildlife and fertile agricultural regions to temperate climates in western and rift valley counties and dry less fertile arid and semi-arid areas and absolute deserts (Chalbi Desert and Nyiri Desert).",inline=False)
+  embed.add_field(name="Capital",value="Nairobi",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ke:968698916629545011>",inline=False)
+  embed.add_field(name="Population",value="54.98 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$333.26 billion",inline=False)
+  embed.add_field(name="Currency",value="Kenyan shilling",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+962",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Kiribati(ctx):
+  embed=discord.Embed(title="Kiribati",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Kiribati, officially the Republic of Kiribati (Gilbertese: [Ribaberiki] Kiribati), is an independent island nation in the central Pacific Ocean. The permanent population is over 119,000 (2020), more than half of whom live on Tarawa atoll. The state comprises 32 atolls and one raised coral island, Banaba. There is a total land area of 811 square kilometres (313 square miles) dispersed over 3.5 million km2 (1.4 million sq mi) of ocean.",inline=False)
+  embed.add_field(name="Capital",value="South Tarawa",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ki:968699489282039898>",inline=False)
+  embed.add_field(name="Population",value="119,940",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$255 billion",inline=False)
+  embed.add_field(name="Currency",value="Australian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +12, UTC +13 or UTC +14",inline=False)
+  embed.add_field(name="Dialing Code",value="+686",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Kuwait(ctx):
+  embed=discord.Embed(title="Kuwait",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Kuwait, officially the State of Kuwait (Arabic: دولة الكويت Dawlat al-Kuwayt), is a country in Western Asia. It is situated in the northern edge of Eastern Arabia at the tip of the Persian Gulf, bordering Iraq to the north and Saudi Arabia to the south. Kuwait also shares maritime borders with Iran. Kuwait has a coastal length of approximately 500 km (311 mi). Most of the country's population reside in the urban agglomeration of the capital city Kuwait City. As of 2021, Kuwait has a population of 4.67 million people of which 1.85 million are Kuwaiti citizens while the remaining 2.8 million are foreign nationals from over 100 countries.",inline=False)
+  embed.add_field(name="Capital",value="Kuwait City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kw:968700251059920896>",inline=False)
+  embed.add_field(name="Population",value="4.42 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$303 billion",inline=False)
+  embed.add_field(name="Currency",value="Kuwaiti dinar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+965",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Kyrgyzstan(ctx):
+  embed=discord.Embed(title="Kyrgyzstan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Kyrgyzstan, officially the Kyrgyz Republic, is a mountainous landlocked country in Central Asia. Kyrgyzstan is bordered by Kazakhstan to the north, Uzbekistan to the west, Tajikistan to the south, and China to the east. Its capital and largest city is Bishkek. Ethnic Kyrgyz make up the majority of the country's six million people, followed by significant minorities of Uzbeks and Russians. The Kyrgyz language is closely related to other Turkic languages.",inline=False)
+  embed.add_field(name="Capital",value="Bishkek",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kg:968701004319178782>",inline=False)
+  embed.add_field(name="Population",value="6.58 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$37.79 billion",inline=False)
+  embed.add_field(name="Currency",value="Kyrgyzstani som",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +6",inline=False)
+  embed.add_field(name="Dialing Code",value="+996",inline=False)
+  await ctx.send(embed=embed) 
+
+
+  
+  
+  
 
 
 keep_alive()

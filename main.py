@@ -1353,6 +1353,133 @@ async def Kyrgyzstan(ctx):
 
 
   
+#Countries Starting with L
+@client.command()
+async def Laos(ctx):
+  embed=discord.Embed(title="Laos",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Laos, officially the Lao People's Democratic Republic, is a socialist state and the only landlocked country in Southeast Asia. At the heart of the Indochinese Peninsula, Laos is bordered by Myanmar and the People's Republic of China to the northwest, Vietnam to the east, Cambodia to the southeast, and Thailand to the west and southwest. Its capital and largest city is Vientiane.",inline=False)
+  embed.add_field(name="Capital",value="Vientine",inline=False)
+  embed.add_field(name="Flag",value="<:flag_la:968729298217336832>",inline=False)
+  embed.add_field(name="Population",value="7.27 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$58.32 billion",inline=False)
+  embed.add_field(name="Currency",value="Kip",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7",inline=False)
+  embed.add_field(name="Dialing Code",value="+856",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+client.command()
+async def Lativa(ctx):
+  embed=discord.Embed(title="Latvia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Latvia, officially the Republic of Latvia (Latvian: Latvijas Republika, Latgalian: Latvejas Republika, Livonian: Leţmō Vabāmō), is a country in the Baltic region of Northern Europe. It is one of the Baltic states; and is bordered by Estonia to the north, Lithuania to the south, Russia to the east, Belarus to the southeast, and shares a maritime border with Sweden to the west. Latvia covers an area of 64,589 sq km (24,938 sq mi), with a population of 1.9 million. The country has a temperate seasonal climate. Its capital and largest city is Riga. Latvians belong to the ethno-linguistic group of the Balts; and speak Latvian, one of the only two surviving Baltic languages. Russians are the most prominent minority in the country, at almost a quarter of the population.",inline=False)
+  embed.add_field(name="Capital",value="Riga",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lv:968732393164918804>",inline=False)
+  embed.add_field(name="Population",value="1.90 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$70.32 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+371",inline=False)
+  await ctx.send(embed=embed)
+
+
+client.command()
+async def Lebanon(ctx):
+  embed=discord.Embed(title="Lebanon",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Lebanon, officially the Republic of Lebanon or the Lebanese Republic, is a country in Western Asia. It is located between Syria to the north and east and Israel to the south, while Cyprus lies to its west across the Mediterranean Sea; its location at the crossroads of the Mediterranean Basin and the Arabian hinterland has contributed to its rich history and shaped a cultural identity of religious diversity. Lebanon is home to roughly six million people and covers an area of 10,452 square kilometres (4,036 sq mi), making it one of the smallest countries in the world. The official language of the state is Arabic, while French is also formally recognized; the Lebanese dialect of Arabic is used alongside Modern Standard Arabic throughout the country. ",inline=False)
+  embed.add_field(name="Capital",value="Beirut",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lb:968733022922879016>",inline=False)
+  embed.add_field(name="Population",value="6.85 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$78.91 billion",inline=False)
+  embed.add_field(name="Currency",value="Lebanese pound",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+961",inline=False)
+  await ctx.send(embed=embed)
+
+
+client.command()
+async def Lesotho(ctx):
+  embed=discord.Embed(title="Lesotho",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Lesotho, officially the Kingdom of Lesotho (Sotho: Naha ea Lesotho), is an enclaved country surrounded by South Africa. It is a mountainous country situated in the Maloti Mountains, and contains the highest mountains in Southern Africa. Lesotho has an area of just over 30,000 sq km (11,600 sq mi) and has a population of about 2 million. Its capital and largest city is Maseru. The official languages are Sesotho and English",inline=False)
+  embed.add_field(name="Capital",value="Maseru",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ls:968733562075480074>",inline=False)
+  embed.add_field(name="Population",value="2.10 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$5.76 billion",inline=False)
+  embed.add_field(name="Currency",value="Loti and South African rand",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+266",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+client.command()
+async def Liberia(ctx):
+  embed=discord.Embed(title="Liberia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Liberia, officially the Republic of Liberia, is a country on the West African coast. It is bordered by Sierra Leone to its northwest, Guinea to its north, Ivory Coast to its east, and the Atlantic Ocean to its south and southwest. It has a population of around 5 million and covers an area of 111,369 square kilometers (43,000 sq mi). English is the official language, but over 20 indigenous languages are spoken, reflecting the country's ethnic and cultural diversity. The country's capital and largest city is Monrovia.",inline=False)
+  embed.add_field(name="Capital",value="Monrovia",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lr:968734196262666280>",inline=False)
+  embed.add_field(name="Population",value="5.21 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$6.46 billion",inline=False)
+  embed.add_field(name="Currency",value="Liberian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+231",inline=False)
+  await ctx.send(embed=embed)
+
+
+client.command()
+async def Libya(ctx):
+  embed=discord.Embed(title="Libya",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Libya, officially the State of Libya (Arabic: دولة ليبيا, romanized: Dawlat Lībiyā), is a country in the Maghreb region in North Africa. It is bordered by the Mediterranean Sea to the north, Egypt to the east, Sudan to the southeast, Chad to the south, Niger to the southwest, Algeria to the west, and Tunisia to the northwest. Libya is made of three historical regions: Tripolitania, Fezzan, and Cyrenaica. With an area of almost 700,000 square miles (1.8 million sq km), it is the fourth-largest country in Africa and the Arab world, and the 16th-largest in the world. Libya has the 10th-largest proven oil reserves in the world. The largest city and capital, Tripoli, is located in western Libya and contains over three million of Libya's seven million people.",inline=False)
+  embed.add_field(name="Capital",value="Tripoli",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ly:968735406126399508>",inline=False)
+  embed.add_field(name="Population",value="6.99 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$90.51 billion",inline=False)
+  embed.add_field(name="Currency",value="Libyan dinar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+218",inline=False)
+  await ctx.send(embed=embed)
+
+client.command()
+async def Liechtenstein(ctx):
+  embed=discord.Embed(title="Liechtenstein",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Liechtenstein, officially the Principality of Liechtenstein (German: Fürstentum Liechtenstein), is a German-speaking microstate located in the Alps between Austria and Switzerland. Liechtenstein is a constitutional monarchy headed by the Prince of Liechtenstein.",inline=False)
+  embed.add_field(name="Capital",value="Vaduz",inline=False)
+  embed.add_field(name="Flag",value="<:flag_li:968736906705776650>",inline=False)
+  embed.add_field(name="Population",value="38,896",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$5.3 billion",inline=False)
+  embed.add_field(name="Currency",value="Swiss franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+423",inline=False)
+  await ctx.send(embed=embed)
+
+client.command()
+async def Lithuania(ctx):
+  embed=discord.Embed(title="Lithuania",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Lithuania, officially the Republic of Lithuania (Lithuanian: Lietuvos Respublika), is a country in the Baltic region of Europe. It is one of three Baltic states and lies on the eastern shore of the Baltic Sea. Lithuania shares land borders with Latvia to the north, Belarus to the east and south, Poland to the south, and Kaliningrad Oblast of Russia to the southwest. It has a maritime border with Sweden to the west on the Baltic Sea. Lithuania covers an area of 65,300 sq km (25,200 sq mi), with a population of 2.8 million. Its capital and largest city is Vilnius; other major cities are Kaunas and Klaipėda. Lithuanians belong to the ethno-linguistic group of the Balts and speak Lithuanian, one of only a few living Baltic languages.",inline=False)
+  embed.add_field(name="Capital",value="Vilnius",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lt:968737709579464734>",inline=False)
+  embed.add_field(name="Population",value="2.79 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$107 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+370",inline=False)
+  await ctx.send(embed=embed)
+
+
+client.command()
+async def Luxembourg(ctx):
+  embed=discord.Embed(title="Luxembourg",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Luxembourg, officially the Grand Duchy of Luxembourg, is a landlocked country in Western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south. Its capital, Luxembourg City, is one of the four official capitals of the European Union (together with Brussels, Frankfurt, and Strasbourg) and the seat of the Court of Justice of the European Union, the highest judicial authority in the EU. Its culture, people, and languages are highly intertwined with its neighbors, making it a mixture of French and German cultures. Luxembourgish is the only national language of the Luxembourgish people, as defined by law.[11] In addition to Luxembourgish, French and German are used in administrative and judicial matters; the three languages are jointly considered administrative languages of Luxembourg.",inline=False)
+  embed.add_field(name="Capital",value="Luxembourg City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lu:968738330843959306>",inline=False)
+  embed.add_field(name="Population",value="645,397",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$66.84 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+352",inline=False)
+  await ctx.send(embed=embed)  
+  
   
   
 

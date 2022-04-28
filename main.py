@@ -1481,7 +1481,607 @@ async def Luxembourg(ctx):
   await ctx.send(embed=embed)  
   
   
-  
+#Countries Starting with M
+@client.command()
+async def Madagascar(ctx):
+  embed=discord.Embed(title="Madagascar",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Madagascar, officially the Republic of Madagascar (Malagasy: Repoblikan'i Madagasikara, Malagasy pronunciation: [republiˈkʲan madaɡasˈkʲarə̥]; French: République de Madagascar), and previously known as the Malagasy Republic, is an island country in the Indian Ocean, approximately 400 kilometres (250 miles) off the coast of East Africa across the Mozambique Channel. At 592,800 square kilometres (228,900 sq mi) Madagascar is the world's second-largest island country, after Indonesia. The nation consists of the island of Madagascar (the fourth-largest island in the world) and numerous smaller peripheral islands. Following the prehistoric breakup of the supercontinent Gondwana, Madagascar split from the Indian subcontinent around 88 million years ago, allowing native plants and animals to evolve in relative isolation. Consequently, Madagascar is a biodiversity hotspot; over 90% of its wildlife is endemic.",inline=False)
+  embed.add_field(name="Capital",value="Antananarivo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mg:968786126292803625>",inline=False)
+  embed.add_field(name="Population",value="28.42 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$45.94 billion",inline=False)
+  embed.add_field(name="Currency",value="Ariary",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+261",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Malawi(ctx):
+  embed=discord.Embed(title="Malawi",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Malawi, officially the Republic of Malawi, is a landlocked country in Southeastern Africa that was formerly known as Nyasaland. It is bordered by Zambia to the west, Tanzania to the north and northeast, and Mozambique to the east, south and southwest. Malawi spans over 118,484 sq km (45,747 sq mi) and has an estimated population of 19,431,566 (as of January 2021). Malawi's capital (and largest city) is Lilongwe. Its second-largest is Blantyre, its third-largest is Mzuzu and its fourth-largest is its former capital, Zomba. The name Malawi comes from the Maravi, an old name for the Chewa people who inhabit the area. The country is nicknamed The Warm Heart of Africa because of the friendliness of its people.",inline=False)
+  embed.add_field(name="Capital",value="Lilongwe",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mw:968787802043084840>",inline=False)
+  embed.add_field(name="Population",value="19.12 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$30.44 billion",inline=False)
+  embed.add_field(name="Currency",value="Malawian kwacha",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+265",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Malaysia(ctx):
+  embed=discord.Embed(title="Malaysia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Malaysia, is a country in Southeast Asia. The federal constitutional monarchy consists of thirteen states and three federal territories, separated by the South China Sea into two regions, Peninsular Malaysia and Borneo's East Malaysia. Peninsular Malaysia shares a land and maritime border with Thailand and maritime borders with Singapore, Vietnam, and Indonesia. East Malaysia shares land and maritime borders with Brunei and Indonesia and a maritime border with the Philippines and Vietnam. Kuala Lumpur is the national capital, largest city and the seat of the legislative branch of the federal government. The nearby planned capital of Putrajaya is the administrative capital, which represents the seat of both the executive branch (Cabinet, federal ministries and agencies) and the judicial branch of the federal government. With a population of over 32 million, Malaysia is the world's 44th-most populous country. The southernmost point of continental Eurasia is in Tanjung Piai. In the tropics, Malaysia is one of 17 megadiverse countries, home to numerous endemic species.",inline=False)
+  embed.add_field(name="Capital",value="Kuala Lumpur",inline=False)
+  embed.add_field(name="Flag",value="<:flag_my:968789175681843200>",inline=False)
+  embed.add_field(name="Population",value="32.73 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$415.37 billion",inline=False)
+  embed.add_field(name="Currency",value="Ringgit",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +8",inline=False)
+  embed.add_field(name="Dialing Code",value="+60",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Maldives(ctx):
+  embed=discord.Embed(title="Maldives",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Malaysia, is a country in Southeast Asia. The federal constitutional monarchy consists of thirteen states and three federal territories, separated by the South China Sea into two regions, Peninsular Malaysia and Borneo's East Malaysia. Peninsular Malaysia shares a land and maritime border with Thailand and maritime borders with Singapore, Vietnam, and Indonesia. East Malaysia shares land and maritime borders with Brunei and Indonesia and a maritime border with the Philippines and Vietnam. Kuala Lumpur is the national capital, largest city and the seat of the legislative branch of the federal government. The nearby planned capital of Putrajaya is the administrative capital, which represents the seat of both the executive branch (Cabinet, federal ministries and agencies) and the judicial branch of the federal government. With a population of over 32 million, Malaysia is the world's 44th-most populous country. The southernmost point of continental Eurasia is in Tanjung Piai. In the tropics, Malaysia is one of 17 megadiverse countries, home to numerous endemic species.",inline=False)
+  embed.add_field(name="Capital",value="Male",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mv:968789896879833098>",inline=False)
+  embed.add_field(name="Population",value="579,330",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$8.97 billion",inline=False)
+  embed.add_field(name="Currency",value="Maldivian rufiyya",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5",inline=False)
+  embed.add_field(name="Dialing Code",value="+960",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Mali(ctx):
+  embed=discord.Embed(title="Mali",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mali, officially the Republic of Mali, is a landlocked country in West Africa. Mali is the eighth-largest country in Africa, with an area of over 1,240,000 square kilometres (480,000 sq mi). The population of Mali is 19.1 million. 67% of its population was estimated to be under the age of 25 in 2017. Its capital and largest city is Bamako. The sovereign state of Mali consists of eight regions and its borders on the north reach deep into the middle of the Sahara Desert. The country's southern part is in the Sudanian savanna, where the majority of inhabitants live, and both the Niger and Senegal rivers pass through. The country's economy centres on agriculture and mining. One of Mali's most prominent natural resources is gold, and the country is the third largest producer of gold on the African continent. It also exports salt.",inline=False)
+  embed.add_field(name="Capital",value="Bamako",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ml:968790679981551626>",inline=False)
+  embed.add_field(name="Population",value="20.25 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$44.32 billion",inline=False)
+  embed.add_field(name="Currency",value="West African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+223",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Malta(ctx):
+  embed=discord.Embed(title="Malta",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Malta, officially known as the Republic of Malta (Maltese: Repubblika ta' Malta [rɛˈpʊbːlɪkɐ tɐ ˈmɐltɐ]), is an island country in the European Union consisting of an archipelago in the Mediterranean Sea, and considered part of Southern Europe. It lies 80 km (50 mi) south of Sicily (Italy), 284 km (176 mi) east of Tunisia, and 333 km (207 mi) north of Libya. The official languages are Maltese and English, and 66% of the current Maltese population is at least conversational in the Italian language.",inline=False)
+  embed.add_field(name="Capital",value="Valletta",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mt:968791278185766922>",inline=False)
+  embed.add_field(name="Population",value="516,100",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$22.80 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+356",inline=False)
+  await ctx.send(embed=embed)
+
+@client.command()
+async def MarshallIslands(ctx):
+  embed=discord.Embed(title="Marshall Islands",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The Marshall Islands, officially the Republic of the Marshall Islands (Marshallese: Aolepān Aorōkin Ṃajeḷ), is an independent island country near the Equator in the Pacific Ocean, slightly west of the International Date Line. Geographically, the country is part of the larger island group of Micronesia. The country's population of 58,413 people (at the 2018 World Bank Census) is spread out over five islands and 29 coral atolls, comprising 1,156 individual islands and islets. The capital and largest city is Majuro. It has the largest portion of its territory composed of water of any sovereign state, at 97.87%. The islands share maritime boundaries with Wake Island to the north, Kiribati to the southeast, Nauru to the south, and Federated States of Micronesia to the west. About 52.3% of Marshall Islanders (27,797 at the 2011 Census) live on Majuro. In 2016, 73.3% of the population were defined as being urban. The UN also indicates a population density of 760 inhabitants per square mile (295/km2), and its projected 2020 population is 59,190.",inline=False)
+  embed.add_field(name="Capital",value="Majuro",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mh:969145843762462752>",inline=False)
+  embed.add_field(name="Population",value="58,413",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$215 million",inline=False)
+  embed.add_field(name="Currency",value="United States dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +12",inline=False)
+  embed.add_field(name="Dialing Code",value="+962",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Mauritania(ctx):
+  embed=discord.Embed(title="Mauritania",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mauritania, officially the Islamic Republic of Mauritania (Arabic: الجمهورية الإسلامية الموريتانية), is a sovereign state in Northwest Africa. It is bordered by the Atlantic Ocean to the west, Western Sahara to the north and northwest, Algeria to the northeast, Mali to the east and southeast, and Senegal to the southwest. Mauritania is the eleventh largest country in Africa, and 90 percent of its territory is situated in the Sahara. Most of its population of 4.4 million lives in the temperate south of the country, with roughly one third concentrated in the capital and largest city, Nouakchott, located on the Atlantic coast. ",inline=False)
+  embed.add_field(name="Capital",value="Nouakchott",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mr:969147380035379250>",inline=False)
+  embed.add_field(name="Population",value="4.4 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$18.11 billion",inline=False)
+  embed.add_field(name="Currency",value="Ouguiya",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+222",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Mauritius(ctx):
+  embed=discord.Embed(title="Mauritius",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mauritius, officially the Republic of Mauritius, is an island nation in the Indian Ocean about 2,000 kilometres (1,200 mi) off the southeast coast of the African continent, east of Madagascar. It includes the main island (also called Mauritius), as well as Rodrigues, Agaléga and St. Brandon. The islands of Mauritius and Rodrigues, along with nearby Réunion (a French overseas department), are part of the Mascarene Islands. The capital and largest city, Port Louis, is located in Mauritius, where most of the population is concentrated. The country spans 2,040 square kilometres (790 sq mi) and has an exclusive economic zone covering 2.3 million square kilometres.",inline=False)
+  embed.add_field(name="Capital",value="Port Louis",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mu:969148192841146399>",inline=False)
+  embed.add_field(name="Population",value="1.26 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$31.7 billion",inline=False)
+  embed.add_field(name="Currency",value="Mauritian rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +4",inline=False)
+  embed.add_field(name="Dialing Code",value="+230",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Mexico(ctx):
+  embed=discord.Embed(title="Mexico",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico. Mexico covers 1,972,550 square kilometers (761,610 sq mi), making it the world's 13th-largest country by area; with approximately 126,014,024 inhabitants, it is the 10th-most-populous country and has the most Spanish-speakers. Mexico is organized as a federation comprising 31 states and Mexico City, its capital and largest metropolis. Other major urban areas include Guadalajara, Monterrey, Puebla, Toluca, Tijuana, Ciudad Juárez, and León.",inline=False)
+  embed.add_field(name="Capital",value="Mexico City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mx:969151098860486676>",inline=False)
+  embed.add_field(name="Population",value="126.01 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.32 trillion",inline=False)
+  embed.add_field(name="Currency",value="Mexican peso",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -8 to -5 or UTC -7 to -5",inline=False)
+  embed.add_field(name="Dialing Code",value="+52",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Micronesia(ctx):
+  embed=discord.Embed(title="Micronesia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The Federated States of Micronesia, or simply Micronesia, is an island country in Oceania. It consists of four states – from west to east, Yap, Chuuk, Pohnpei and Kosrae – that are spread across the western Pacific. Together, the states comprise around 607 islands (a combined land area of approximately 702 sq km or 271 sq mi) that cover a longitudinal distance of almost 2,700 km (1,678 mi) just north of the equator. They lie northeast of Indonesia and Papua New Guinea, south of Guam and the Marianas, west of Nauru and the Marshall Islands, east of Palau and the Philippines, about 2,900 km (1,802 mi) north of eastern Australia, 3,400 km (2,133 mi) southeast of Japan, and some 4,000 km (2,485 mi) southwest of the main islands of the Hawaiian Islands.",inline=False)
+  embed.add_field(name="Capital",value="Palikir",inline=False)
+  embed.add_field(name="Flag",value="<:flag_fm:969152369176760320>",inline=False)
+  embed.add_field(name="Population",value="104,468",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$367 million",inline=False)
+  embed.add_field(name="Currency",value="United States dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +10 or UTC +11",inline=False)
+  embed.add_field(name="Dialing Code",value="+691",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Monaco(ctx):
+  embed=discord.Embed(title="Monaco",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Monaco, officially the Principality of Monaco (French: Principauté de Monaco; Ligurian: Prinçipatu de Múnegu), is a sovereign city-state and microstate on the French Riviera a few kilometres west of the Italian region of Liguria, in Western Europe, on the Mediterranean Sea. It is bordered by France to the north, east and west. The principality is home to 38,682 residents, of whom 9,486 are Monégasque nationals; it is widely recognised as one of the most expensive and wealthiest places in the world. The official language of the principality is French. In addition, Monégasque (a dialect of Ligurian), Italian and English are spoken and understood by many residents.",inline=False)
+  embed.add_field(name="Capital",value="Monaco",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mc:969161011175260220>",inline=False)
+  embed.add_field(name="Population",value="38,300",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$7.67 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+377",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Mongolia(ctx):
+  embed=discord.Embed(title="Mongolia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mongolia, is a landlocked country in East Asia, bordered by Russia to the north and China to the south. It covers an area of 1,564,116 square kilometres (603,909 square miles), with a population of just 3.3 million, making it the world's most sparsely populated sovereign nation. Mongolia is the world's largest landlocked country that does not border a closed sea, and much of its area is covered by grassy steppe, with mountains to the north and west and the Gobi Desert to the south. Ulaanbaatar, the capital and largest city, is home to roughly half of the country's population.",inline=False)
+  embed.add_field(name="Capital",value="Ulaanbaatar",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mn:969162265179873280>",inline=False)
+  embed.add_field(name="Population",value="3.53 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$47 billion",inline=False)
+  embed.add_field(name="Currency",value="Togrog",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7 or UTC +8",inline=False)
+  embed.add_field(name="Dialing Code",value="+976",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Montenegro(ctx):
+  embed=discord.Embed(title="Montenegro",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mongolia, is a landlocked country in East Asia, bordered by Russia to the north and China to the south. It covers an area of 1,564,116 square kilometres (603,909 square miles), with a population of just 3.3 million, making it the world's most sparsely populated sovereign nation. Mongolia is the world's largest landlocked country that does not border a closed sea, and much of its area is covered by grassy steppe, with mountains to the north and west and the Gobi Desert to the south. Ulaanbaatar, the capital and largest city, is home to roughly half of the country's population.",inline=False)
+  embed.add_field(name="Capital",value="Podgorica",inline=False)
+  embed.add_field(name="Flag",value="<:flag_me:969163530664308746>",inline=False)
+  embed.add_field(name="Population",value="620,739",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$11.99 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+382",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Morocco(ctx):
+  embed=discord.Embed(title="Morocco",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Morocco, officially the Kingdom of Morocco, is the northwesternmost country in the Maghreb region of North Africa. It overlooks the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east, and the disputed territory of Western Sahara to the south. Morocco also claims the Spanish exclaves of Ceuta, Melilla and Peñón de Vélez de la Gomera, and several small Spanish-controlled islands off its coast. It spans an area of 446,300 sq km (172,300 sq mi) or 710,850 sq km (274,460 sq mi), with a population of roughly 37 million. Its official and predominant religion is Islam, and the official languages are Arabic and Berber; the Moroccan dialect of Arabic and French are also widely spoken. Moroccan identity and culture is a vibrant mix of Berber, Arab, and European cultures. Its capital is Rabat, while its largest city is Casablanca.",inline=False)
+  embed.add_field(name="Capital",value="Rabat",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ma:969166596188798977>",inline=False)
+  embed.add_field(name="Population",value="37.11 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$332.35 billion",inline=False)
+  embed.add_field(name="Currency",value="Moroccan dirham",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+212",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Mozambique(ctx):
+  embed=discord.Embed(title="Mozambique",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Mozambique, officially the Republic of Mozambique (Portuguese: Moçambique or República de Moçambique, Portuguese pronunciation: [ʁɛˈpuβlikɐ ðɨ musɐ̃ˈbikɨ]; Chichewa: Mozambiki; Swahili: Msumbiji; Tsonga: Muzambhiki), is a country located in Southeastern Africa bordered by the Indian Ocean to the east, Tanzania to the north, Malawi and Zambia to the northwest, Zimbabwe to the west, and Eswatini (Swaziland) and South Africa to the southwest. The sovereign state is separated from the Comoros, Mayotte and Madagascar by the Mozambique Channel to the east. The capital and largest city of Mozambique is Maputo.",inline=False)
+  embed.add_field(name="Capital",value="Maputo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mz:969167893482856458>",inline=False)
+  embed.add_field(name="Population",value="30.06 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$43.26 billion",inline=False)
+  embed.add_field(name="Currency",value="Metical",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+258",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Myanmar(ctx):
+  embed=discord.Embed(title="Myanmar",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Myanmar, officially the Republic of the Union of Myanmar (Burmese: ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်‌, [pjìdàuɴzṵ θàɴmədaa̰ mjəmà nàiɴŋàɴdɔ̀]), also called Burma, is a country in Southeast Asia. It is the largest country in Mainland Southeast Asia, and has a population of about 54 million as of 2017. Myanmar is bordered by Bangladesh and India to its northwest, China to its northeast, Laos and Thailand to its east and southeast, and the Andaman Sea and the Bay of Bengal to its south and southwest. The country's capital city is Naypyidaw, and its largest city is Yangon.",inline=False)
+  embed.add_field(name="Capital",value="Yangon",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mm:969168402075750430>",inline=False)
+  embed.add_field(name="Population",value="53.58 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$243.42 billion",inline=False)
+  embed.add_field(name="Currency",value="Kyat",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +6:30",inline=False)
+  embed.add_field(name="Dialing Code",value="+95",inline=False)
+  await ctx.send(embed=embed)
+
+
+#Countries starting with N
+@client.command()
+async def Namibia(ctx):
+  embed=discord.Embed(title="Namibia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Namibia, officially the Republic of Namibia, is a country in Southern Africa. Its western border is the Atlantic Ocean. It shares land borders with Zambia and Angola to the north, Botswana to the east and South Africa to the south and east. Although it does not border Zimbabwe, less than 200 metres (660 feet) of the Botswanan right bank of the Zambezi River separates the two countries. Namibia gained independence from South Africa on 21 March 1990, following the Namibian War of Independence. Its capital and largest city is Windhoek. Namibia is a member state of the United Nations (UN), the Southern African Development Community (SADC), the African Union (AU) and the Commonwealth of Nations.",inline=False)
+  embed.add_field(name="Capital",value="Windhoek",inline=False)
+  embed.add_field(name="Flag",value="<:flag_na:969169756336824340>",inline=False)
+  embed.add_field(name="Population",value="2.55 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$26.64 billion",inline=False)
+  embed.add_field(name="Currency",value="Namibian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+264",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Nauru(ctx):
+  embed=discord.Embed(title="Namibia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Nauru, officially the Republic of Nauru (Nauruan: Repubrikin Naoero) and formerly known as Pleasant Island, is an island country and microstate in Oceania, in the Central Pacific. Its nearest neighbour is Banaba Island in Kiribati, 300 km (190 mi) to the east. It further lies northwest of Tuvalu, 1,300 km (810 mi) northeast of Solomon Islands, east-northeast of Papua New Guinea, southeast of the Federated States of Micronesia and south of the Marshall Islands. With only a 21 sq km (8.1 sq mi) area, Nauru is the third-smallest country in the world behind Vatican City and Monaco, making it the smallest republic as well as the smallest island nation. Its population of about 10,000 is the world's second-smallest (not including colonies or overseas territories), after Vatican City.",inline=False)
+  embed.add_field(name="Capital",value="Yaren",inline=False)
+  embed.add_field(name="Flag",value="<:flag_nr:969170708745846824>",inline=False)
+  embed.add_field(name="Population",value="10,834",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$132 million",inline=False)
+  embed.add_field(name="Currency",value="Australian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +12",inline=False)
+  embed.add_field(name="Dialing Code",value="+674",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Nepal(ctx):
+  embed=discord.Embed(title="Nepal",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Nepal, officially the Federal Democratic Republic of Nepal (Nepali: सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल), is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain, bordering Tibet of China to the north, and India in the south, east, and west, while it is narrowly separated from Bangladesh by the Siliguri Corridor, and from Bhutan by the Indian state of Sikkim. Nepal has a diverse geography, including fertile plains, subalpine forested hills, and eight of the world's ten tallest mountains, including Mount Everest, the highest point on Earth. Nepal is a multi-ethnic, multi-lingual, multi-religious and multi-cultural state, with Nepali as the official language. Kathmandu is the nation's capital and the largest city.",inline=False)
+  embed.add_field(name="Capital",value="Kathmandu",inline=False)
+  embed.add_field(name="Flag",value="<:flag_np:969171307977654302>",inline=False)
+  embed.add_field(name="Population",value="28.09 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$122.62 billion",inline=False)
+  embed.add_field(name="Currency",value="Nepalese rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5:45",inline=False)
+  embed.add_field(name="Dialing Code",value="+977",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Netherlands(ctx):
+  embed=discord.Embed(title="Netherlands",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The Kingdom of the Netherlands, commonly known as simply the Netherlands, is a sovereign state and constitutional monarchy with 98% of its territory and population in Western Europe and with several small West Indian island territories in the Caribbean (in the Leeward Islands and Leeward Antilles groups). ",inline=False)
+  embed.add_field(name="Capital",value="Amsterdam",inline=False)
+  embed.add_field(name="Flag",value="<:flag_nl:969172377520992366>",inline=False)
+  embed.add_field(name="Population",value="17.73 million",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+31",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def NewZealand(ctx):
+  embed=discord.Embed(title="New Zealand",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island (Te Ika-a-Māui) and the South Island (Te Waipounamu)—and over 700 smaller islands. It is the sixth-largest island country, covering a total area of 268,021 square kilometres (103,500 sq mi). New Zealand is about 2,000 kilometres (1,200 mi) east of Australia across the Tasman Sea and 1,000 kilometres (600 mi) south of the islands of New Caledonia, Fiji, and Tonga. The country's varied topography and sharp mountain peaks, including the Southern Alps, owe much to tectonic uplift and volcanic eruptions. New Zealand's capital city is Wellington, and its most populous city is Auckland.",inline=False)
+  embed.add_field(name="Capital",value="Wellington",inline=False)
+  embed.add_field(name="Flag",value="<:flag_nz:969173970656067595>",inline=False)
+  embed.add_field(name="Population",value="5.13 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$222.56 billion",inline=False)
+  embed.add_field(name="Currency",value="New Zealand dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +12 to UTC +13",inline=False)
+  embed.add_field(name="Dialing Code",value="+64",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Nicaragua(ctx):
+  embed=discord.Embed(title="Nicaragua",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Nicaragua, officially the Republic of Nicaragua (Spanish: República de Nicaragua), is the largest country in the Central American isthmus, bordered by Honduras to the northwest, the Caribbean to the east, Costa Rica to the south, and the Pacific Ocean to the southwest. Managua is the country's capital and largest city and is also the third-largest city in Central America, behind Tegucigalpa and Guatemala City. The multi-ethnic population of six million includes people of mestizo, indigenous, European and African heritage. The main language is Spanish. Indigenous tribes on the Mosquito Coast speak their own languages and English.",inline=False)
+  embed.add_field(name="Capital",value="Managua",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ni:969174834259042314>",inline=False)
+  embed.add_field(name="Population",value="6.48 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$35.75 billion",inline=False)
+  embed.add_field(name="Currency",value="Corodoba",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -6",inline=False)
+  embed.add_field(name="Dialing Code",value="+505",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Niger(ctx):
+  embed=discord.Embed(title="Niger",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Niger, officially the Republic of the Niger, (Hausa: Jamhuriyar Nijar, Zarma/Songhai: Nigér Laabo, Tamajaq: ⵜⴰⴶⴷⵓⴷⴰ ⵏ ⵏⵉⵌⵢⵔ, Arabic: جمهورية النيجر) is a landlocked country in West Africa named after the Niger River. Niger is a unitary state bordered by Libya to the northeast, Chad to the east, Nigeria to the south, Benin and Burkina Faso to the southwest, Mali to the west, and Algeria to the northwest. Niger covers a land area of almost 1,270,000 sq km (490,000 sq mi), making it the second-largest landlocked country in West Africa, after Chad. Over 80% of its land area lies in the Sahara Desert. The country's predominantly Muslim population of about 22 million live mostly in clusters in the far south and west of the country. The capital and largest city is Niamey, located in Niger's southwest corner.",inline=False)
+  embed.add_field(name="Capital",value="Niamey",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ne:969175242633269349>",inline=False)
+  embed.add_field(name="Population",value="24.11 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$23.47 billion",inline=False)
+  embed.add_field(name="Currency",value="West African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+227",inline=False)
+  await ctx.send(embed=embed)
+
+@client.command()
+async def Nigeria(ctx):
+  embed=discord.Embed(title="Niger",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Nigeria, officially the Federal Republic of Nigeria, is a country in West Africa. It is the most populous country in Africa. It is geographically situated between the Sahel to the north and the Gulf of Guinea to the south in the Atlantic Ocean. It covers an area of 923,769 square kilometres (356,669 sq mi), with a population of over 211 million. Nigeria borders Niger in the north, Chad in the northeast, Cameroon in the east, and Benin in the west. Nigeria is a federal republic comprising 36 states and the Federal Capital Territory, where the capital, Abuja, is located. The largest city in Nigeria is Lagos, one of the largest metropolitan areas in the world and the second-largest in Africa.",inline=False)
+  embed.add_field(name="Capital",value="Abuja",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ng:969176170765627442>",inline=False)
+  embed.add_field(name="Population",value="211.40 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.23 trillion",inline=False)
+  embed.add_field(name="Currency",value="Naira",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+234",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def NorthernMacedonia(ctx):
+  embed=discord.Embed(title="Niger",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Northern Macedonia, officially the Republic of North Macedonia, is a country in Southeast Europe. It gained independence in 1991 as one of the successor states of Yugoslavia. North Macedonia is a landlocked country bordering Kosovo to the northwest, Serbia to the north, Bulgaria to the east, Greece to the south, and Albania to the west. It constitutes approximately the northern third of the larger geographical region of Macedonia. Skopje, the capital and largest city, is home to a quarter of the country's 1.83 million population. The majority of the residents are ethnic Macedonians, a South Slavic people. Albanians form a significant minority at around 25%, followed by Turks, Romani, Serbs, Bosniaks, Aromanians and a few other minorities.",inline=False)
+  embed.add_field(name="Capital",value="Skopje",inline=False)
+  embed.add_field(name="Flag",value="<:flag_mk:969176581455118346>",inline=False)
+  embed.add_field(name="Population",value="1.83 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$33.82 billion",inline=False)
+  embed.add_field(name="Currency",value="Macedonian denar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+389",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Norway(ctx):
+  embed=discord.Embed(title="Norway",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Norway, officially the Kingdom of Norway, is a Nordic country in Northern Europe, the mainland territory of which comprises the western and northernmost portion of the Scandinavian Peninsula. The remote Arctic island of Jan Mayen and the archipelago of Svalbard also form part of Norway. Bouvet Island, located in the Subantarctic, is a dependency of Norway; it also lays claims to the Antarctic territories of Peter I Island and Queen Maud Land. The capital and largest city in Norway is Oslo.",inline=False)
+  embed.add_field(name="Capital",value="Oslo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_no:969177529422331934>",inline=False)
+  embed.add_field(name="Population",value="5.42 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$350 billion",inline=False)
+  embed.add_field(name="Currency",value="Norwegian krone",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+47",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries starting with O
+@client.command()
+async def Oman(ctx):
+  embed=discord.Embed(title="Oman",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Oman, officially the Sultanate of Oman (Arabic: سلْطنةُ عُمان Salṭanat(u) ʻUmān), is a country in Western Asia. It is situated on the southeastern coast of the Arabian Peninsula, and spans the mouth of the Persian Gulf. Oman shares land borders with Saudi Arabia, the United Arab Emirates, and Yemen; while sharing maritime borders with Iran and Pakistan. The coast is formed by the Arabian Sea on the southeast, and the Gulf of Oman on the northeast. The Madha and Musandam exclaves are surrounded by the United Arab Emirates on their land borders, with the Strait of Hormuz (which it shares with Iran) and the Gulf of Oman forming Musandam's coastal boundaries. Muscat is the nation's capital and largest city.",inline=False)
+  embed.add_field(name="Capital",value="Muscat",inline=False)
+  embed.add_field(name="Flag",value="<:flag_om:969179862399090738>",inline=False)
+  embed.add_field(name="Population",value="4.82 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$165.94 billion",inline=False)
+  embed.add_field(name="Currency",value="Omani rial",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +4",inline=False)
+  embed.add_field(name="Dialing Code",value="+968",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries Starting with P
+@client.command()
+async def Pakistan(ctx):
+  embed=discord.Embed(title="Pakistan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the world's fifth-most populous country, with a population of almost 227 million, and has the world's second-largest Muslim population. Pakistan is the 33rd-largest country by area, spanning 881,913 square kilometres (340,509 square miles). It has a 1,046-kilometre (650-mile) coastline along the Arabian Sea and Gulf of Oman in the south, and is bordered by India to the east, Afghanistan to the west, Iran to the southwest, and China to the northeast. It is separated narrowly from Tajikistan by Afghanistan's Wakhan Corridor in the north, and also shares a maritime border with Oman.",inline=False)
+  embed.add_field(name="Capital",value="Islamabad",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pk:969180766355460116>",inline=False)
+  embed.add_field(name="Population",value="226.99 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.33 trillion",inline=False)
+  embed.add_field(name="Currency",value="Pakistan rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5",inline=False)
+  embed.add_field(name="Dialing Code",value="+92",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Palau(ctx):
+  embed=discord.Embed(title="Palau",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Oman, officially the Sultanate of Oman (Arabic: سلْطنةُ عُمان Salṭanat(u) ʻUmān), is a country in Western Asia. It is situated on the southeastern coast of the Arabian Peninsula, and spans the mouth of the Persian Gulf. Oman shares land borders with Saudi Arabia, the United Arab Emirates, and Yemen; while sharing maritime borders with Iran and Pakistan. The coast is formed by the Arabian Sea on the southeast, and the Gulf of Oman on the northeast. The Madha and Musandam exclaves are surrounded by the United Arab Emirates on their land borders, with the Strait of Hormuz (which it shares with Iran) and the Gulf of Oman forming Musandam's coastal boundaries. Muscat is the nation's capital and largest city.",inline=False)
+  embed.add_field(name="Capital",value="Ngerulmud",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pw:969181279721517056>",inline=False)
+  embed.add_field(name="Population",value="17,907",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$300 million",inline=False)
+  embed.add_field(name="Currency",value="United States dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +9",inline=False)
+  embed.add_field(name="Dialing Code",value="+680",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Palestine(ctx):
+  embed=discord.Embed(title="Palestine",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Palestine, officially the State of Palestine (دولة فلسطين, Dawlat Filasṭīn), is a de jure sovereign state in Western Asia. It is officially governed by the Palestine Liberation Organization (PLO) and claims the West Bank and the Gaza Strip. However, its claimed territory has been occupied by Israel since the Six-Day War of 1967; the West Bank is currently split into 165 Palestinian islands under partial Palestinian National Authority (PNA) civil rule, and 230 Israeli settlements into which Israeli law is pipelined, while Gaza is ruled by Hamas and under a long-term blockade by Egypt and Israel since 2007.",inline=False)
+  embed.add_field(name="Capital",value="Jerusalem (limited recognition)",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ps:969183465302003752>",inline=False)
+  embed.add_field(name="Population",value="5.15 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$26.47 billion",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 to UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+970",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
+
+@client.command()
+async def Panama(ctx):
+  embed=discord.Embed(title="Panama",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Panama, officially the Republic of Panama (Spanish: República de Panamá), is a transcontinental country in Central America and South America, bordered by Costa Rica to the west, Colombia to the southeast, the Caribbean Sea to the north, and the Pacific Ocean to the south. Its capital and largest city is Panama City, whose metropolitan area is home to nearly half the country's 4 million people.",inline=False)
+  embed.add_field(name="Capital",value="Panama City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pa:969182489966936064>",inline=False)
+  embed.add_field(name="Population",value="4.37 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$128.50 billion",inline=False)
+  embed.add_field(name="Currency",value="Balboa and United States dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -5",inline=False)
+  embed.add_field(name="Dialing Code",value="+507",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def PapuaNewGuinea(ctx):
+  embed=discord.Embed(title="Panama",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Papua New Guinea, the Independent State of Papua New Guinea (Tok Pisin: Independen Stet bilong Papua Niugini; Hiri Motu: Independen Stet bilong Papua Niu Gini), is a country in Oceania that comprises the eastern half of the island of New Guinea and its offshore islands in Melanesia (a region of the southwestern Pacific Ocean north of Australia). Its capital, located along its southeastern coast, is Port Moresby. The country is the world's third largest island country with an area of 462,840 sq km (178,700 sq mi).",inline=False)
+  embed.add_field(name="Capital",value="Port Moresby",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pg:969185527230238740>",inline=False)
+  embed.add_field(name="Population",value="8.93 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$32.38 billion",inline=False)
+  embed.add_field(name="Currency",value="Kina",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +10 or UTC +11",inline=False)
+  embed.add_field(name="Dialing Code",value="+675",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Paraguay(ctx):
+  embed=discord.Embed(title="Paraguay",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Paraguay, officially the Republic of Paraguay (Spanish: República del Paraguay; Guarani: Tetã Paraguái), is a country in South America. It is bordered by Argentina to the south and southwest, Brazil to the east and northeast, and Bolivia to the northwest. It has a population of 7 million, nearly 3 million of whom live in the capital and largest city of Asunción, and its surrounding metro. Although one of only two landlocked countries in South America (Bolivia is the other), Paraguay has ports on the Paraguay and Paraná rivers that give exit to the Atlantic Ocean, through the Paraná-Paraguay Waterway.",inline=False)
+  embed.add_field(name="Capital",value="Asuncion",inline=False)
+  embed.add_field(name="Flag",value="<:flag_py:969187438687817808>",inline=False)
+  embed.add_field(name="Population",value="7.35 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$101.07 billion",inline=False)
+  embed.add_field(name="Currency",value="Guarani",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4 or UTC -3",inline=False)
+  embed.add_field(name="Dialing Code",value="+595",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Peru(ctx):
+  embed=discord.Embed(title="Peru",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Peru, officially the Republic of Peru (Spanish: República del Perú (help·info)), is a country in western South America. It is bordered in the north by Ecuador and Colombia, in the east by Brazil, in the southeast by Bolivia, in the south by Chile, and in the south and west by the Pacific Ocean. Peru is a megadiverse country with habitats ranging from the arid plains of the Pacific coastal region in the west to the peaks of the Andes mountains extending from the north to the southeast of the country to the tropical Amazon basin rainforest in the east with the Amazon River. Peru has a population of 34 million, and its capital and largest city is Lima. At 1.28 million km2 (0.5 million sq mi), Peru is the 19th largest country in the world, and the third largest in South America.",inline=False)
+  embed.add_field(name="Capital",value="Lima",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pe:969188507346149437>",inline=False)
+  embed.add_field(name="Population",value="34.29 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$385.71 billion",inline=False)
+  embed.add_field(name="Currency",value="Sol",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -5",inline=False)
+  embed.add_field(name="Dialing Code",value="+51",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Philippines(ctx):
+  embed=discord.Embed(title="Peru",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Philippines, officially the Republic of the Philippines (Filipino: Republika ng Pilipinas), is an archipelagic country in Southeast Asia. It is situated in the western Pacific Ocean, and consists of about 7,640 islands, that are broadly categorized under three main geographical divisions from north to south: Luzon, Visayas, and Mindanao. The Philippines is bounded by the West Philippine Sea to the west, the Philippine Sea to the east, and the Celebes Sea to the southwest, and shares maritime borders with Taiwan to the north, Japan to the northeast, Palau to the east and southeast, Indonesia to the south, Malaysia to the southwest, Vietnam to the west, and China to the northwest. The Philippines covers an area of 300,000 sq km (120,000 sq mi) and, as of 2020, had a population of around 109 million people, making it the world's thirteenth-most populous country.",inline=False)
+  embed.add_field(name="Capital",value="Manila",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ph:969189506949455922>",inline=False)
+  embed.add_field(name="Population",value="109.99 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1 trillion",inline=False)
+  embed.add_field(name="Currency",value="Philippine peso",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +8",inline=False)
+  embed.add_field(name="Dialing Code",value="+63",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Poland(ctx):
+  embed=discord.Embed(title="Poland",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Poland, officially the Republic of Poland, is a country in Central Europe. It is divided into 16 administrative provinces called voivodeships, covering an area of 312,696 sq km (120,733 sq mi). Poland has a population of over 38 million and is the fifth-most populous member state of the European Union. Warsaw is the nation's capital and largest metropolis. Other major cities include Kraków, Łódź, Wrocław, Poznań, Gdańsk, and Szczecin.",inline=False)
+  embed.add_field(name="Capital",value="Warsaw",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pl:969190251941736488>",inline=False)
+  embed.add_field(name="Population",value="38.17 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.52 trillion",inline=False)
+  embed.add_field(name="Currency",value="Zloty",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+48",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Portugal(ctx):
+  embed=discord.Embed(title="Portugal",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Portugal, officially the Portuguese Republic (Portuguese: República Portuguesa [ʁɛˈpuβlikɐ puɾtuˈɣezɐ]), is a country whose mainland is located on the Iberian Peninsula of Southwestern Europe, and whose territory also includes the Atlantic archipelagos of the Azores and Madeira. It features the westernmost point in mainland Europe, and its Iberian portion is bordered to the west and south by the Atlantic Ocean and to the north and east by Spain, the sole country to have a land border with Portugal. Its two archipelagos form two autonomous regions with their own regional governments. The official and national language is Portuguese. Lisbon is the capital and largest city.",inline=False)
+  embed.add_field(name="Capital",value="Lisbon",inline=False)
+  embed.add_field(name="Flag",value="<:flag_pt:969190743027634186>",inline=False)
+  embed.add_field(name="Population",value="10.34 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$419.7 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+351",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries Starting with Q
+@client.command()
+async def Qatar(ctx):
+  embed=discord.Embed(title="Qatar",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Qatar, officially the State of Qatar, is a country in Western Asia. It occupies the small Qatar Peninsula on the northeastern coast of the Arabian Peninsula, and shares its sole land border with neighbouring Gulf Cooperation Council monarchy Saudi Arabia to the south, with the rest of its territory surrounded by the Persian Gulf. The Gulf of Bahrain, an inlet of the Persian Gulf, separates Qatar from nearby Bahrain. The capital is Doha, home to over 80% of the nation's population.",inline=False)
+  embed.add_field(name="Capital",value="Doha",inline=False)
+  embed.add_field(name="Flag",value="<:flag_qa:969195715572154408>",inline=False)
+  embed.add_field(name="Population",value="2.79 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$315.29 billion",inline=False)
+  embed.add_field(name="Currency",value="Qatari riyal",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+974",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries Starting with R
+@client.command()
+async def Romania(ctx):
+  embed=discord.Embed(title="Romania",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It borders Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, Moldova to the east, and the Black Sea to the southeast. It has a predominantly temperate-continental climate, and an area of 238,397 sq km (92,046 sq mi), with a population of around 19 million. Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union. Its capital and largest city is Bucharest, and other major urban areas include Iași, Cluj-Napoca, Timișoara, Constanța, Craiova, Brașov, and Galați.",inline=False)
+  embed.add_field(name="Capital",value="Bucharest",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ro:969197119489593354>",inline=False)
+  embed.add_field(name="Population",value="19.18 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$704.35 billion",inline=False)
+  embed.add_field(name="Currency",value="Romanian leu",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+40",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Russia(ctx):
+  embed=discord.Embed(title="Russia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Russia, or the Russian Federation, is a transcontinental country spanning Eastern Europe and Northern Asia. It is the largest country in the world by area, covering over 17,125,191 square kilometres (6,612,073 sq mi), and encompassing one-eighth of Earth's inhabitable landmass. Russia extends across eleven time zones and borders sixteen sovereign nations, the most of any country in the world. It is the ninth-most populous country and the most populous country in Europe, with a population of 145.5 million. The country's capital and largest city is Moscow, the largest city entirely within Europe.",inline=False)
+  embed.add_field(name="Capital",value="Moscow",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ru:969197681870262272>",inline=False)
+  embed.add_field(name="Population",value="145.47 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$4.32 trillion",inline=False)
+  embed.add_field(name="Currency",value="Russian ruble",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 to UTC +12",inline=False)
+  embed.add_field(name="Dialing Code",value="+7",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Rwanda(ctx):
+  embed=discord.Embed(title="Rwanda",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Rwanda, officially the Republic of Rwanda, is a landlocked country in the Great Rift Valley of Central Africa, where the African Great Lakes region and East Africa converge. Located a few degrees south of the Equator, Rwanda is bordered by Uganda, Tanzania, Burundi, and the Democratic Republic of the Congo. It is highly elevated, giving it the soubriquet land of a thousand hills, with its geography dominated by mountains in the west and savanna to the east, with numerous lakes throughout the country. The climate is temperate to subtropical, with two rainy seasons and two dry seasons each year.",inline=False)
+  embed.add_field(name="Capital",value="Kigali",inline=False)
+  embed.add_field(name="Flag",value="<:flag_rw:969198622795239454>",inline=False)
+  embed.add_field(name="Population",value="12.37 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$33.45 billion",inline=False)
+  embed.add_field(name="Currency",value="Rwandan franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+250",inline=False)
+  await ctx.send(embed=embed)  
 
 
 keep_alive()

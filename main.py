@@ -1896,7 +1896,7 @@ async def Pakistan(ctx):
 @client.command()
 async def Palau(ctx):
   embed=discord.Embed(title="Palau",color=discord.Colour.red())
-  embed.add_field(name="Basic Info",value="Oman, officially the Sultanate of Oman (Arabic: سلْطنةُ عُمان Salṭanat(u) ʻUmān), is a country in Western Asia. It is situated on the southeastern coast of the Arabian Peninsula, and spans the mouth of the Persian Gulf. Oman shares land borders with Saudi Arabia, the United Arab Emirates, and Yemen; while sharing maritime borders with Iran and Pakistan. The coast is formed by the Arabian Sea on the southeast, and the Gulf of Oman on the northeast. The Madha and Musandam exclaves are surrounded by the United Arab Emirates on their land borders, with the Strait of Hormuz (which it shares with Iran) and the Gulf of Oman forming Musandam's coastal boundaries. Muscat is the nation's capital and largest city.",inline=False)
+  embed.add_field(name="Basic Info",value="Palau, officially the Republic of Palau (Palauan: Beluu er a Belau) and historically Belau, Palaos or Pelew, is an island country in the western Pacific. The nation has approximately 340 islands and connects the western chain of the Caroline Islands with parts of the Federated States of Micronesia. It has a total area of 466 square kilometers (180 square miles).",inline=False)
   embed.add_field(name="Capital",value="Ngerulmud",inline=False)
   embed.add_field(name="Flag",value="<:flag_pw:969181279721517056>",inline=False)
   embed.add_field(name="Population",value="17,907",inline=False)
@@ -1940,7 +1940,7 @@ async def Panama(ctx):
 
 @client.command()
 async def PapuaNewGuinea(ctx):
-  embed=discord.Embed(title="Panama",color=discord.Colour.red())
+  embed=discord.Embed(title="Papua New Guinea",color=discord.Colour.red())
   embed.add_field(name="Basic Info",value="Papua New Guinea, the Independent State of Papua New Guinea (Tok Pisin: Independen Stet bilong Papua Niugini; Hiri Motu: Independen Stet bilong Papua Niu Gini), is a country in Oceania that comprises the eastern half of the island of New Guinea and its offshore islands in Melanesia (a region of the southwestern Pacific Ocean north of Australia). Its capital, located along its southeastern coast, is Port Moresby. The country is the world's third largest island country with an area of 462,840 sq km (178,700 sq mi).",inline=False)
   embed.add_field(name="Capital",value="Port Moresby",inline=False)
   embed.add_field(name="Flag",value="<:flag_pg:969185527230238740>",inline=False)
@@ -1982,7 +1982,7 @@ async def Peru(ctx):
 
 @client.command()
 async def Philippines(ctx):
-  embed=discord.Embed(title="Peru",color=discord.Colour.red())
+  embed=discord.Embed(title="Philippines",color=discord.Colour.red())
   embed.add_field(name="Basic Info",value="Philippines, officially the Republic of the Philippines (Filipino: Republika ng Pilipinas), is an archipelagic country in Southeast Asia. It is situated in the western Pacific Ocean, and consists of about 7,640 islands, that are broadly categorized under three main geographical divisions from north to south: Luzon, Visayas, and Mindanao. The Philippines is bounded by the West Philippine Sea to the west, the Philippine Sea to the east, and the Celebes Sea to the southwest, and shares maritime borders with Taiwan to the north, Japan to the northeast, Palau to the east and southeast, Indonesia to the south, Malaysia to the southwest, Vietnam to the west, and China to the northwest. The Philippines covers an area of 300,000 sq km (120,000 sq mi) and, as of 2020, had a population of around 109 million people, making it the world's thirteenth-most populous country.",inline=False)
   embed.add_field(name="Capital",value="Manila",inline=False)
   embed.add_field(name="Flag",value="<:flag_ph:969189506949455922>",inline=False)

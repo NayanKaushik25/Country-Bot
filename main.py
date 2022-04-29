@@ -2083,7 +2083,259 @@ async def Rwanda(ctx):
   embed.add_field(name="Dialing Code",value="+250",inline=False)
   await ctx.send(embed=embed)  
 
+  
+#Countries starting with S
+@client.command()
+async def SaintKittsandNevis(ctx):
+  embed=discord.Embed(title="Saint Kitts and Nevis",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Saint Kitts and Nevis, officially the Federation of Saint Christopher and Nevis, is an island country in the West Indies. Located in the Leeward Islands chain of the Lesser Antilles, it is the smallest sovereign state in the Western Hemisphere, in both area and population, as well as the world's smallest sovereign federation. The country is a Commonwealth realm, with Elizabeth II as Queen and head of state. It is the only sovereign federation in the Caribbean.",inline=False)
+  embed.add_field(name="Capital",value="Basseterre",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kn:969506899793960970>",inline=False)
+  embed.add_field(name="Population",value="52,441",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.75 billion",inline=False)
+  embed.add_field(name="Currency",value="East Carribean dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+1 869",inline=False)
+  await ctx.send(embed=embed)
 
+
+@client.command()
+async def SaintLucia(ctx):
+  embed=discord.Embed(title="Saint Lucia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="is an island country in the West Indies in the eastern Caribbean Sea on the boundary with the Atlantic Ocean. The island was previously called Iyonola, the name given to the island by the native Arawaks, and later Hewanorra, the name given by the native Caribs, two separate Amerindian peoples. Part of the Windward Islands of the Lesser Antilles, it is located north/northeast of the island of Saint Vincent, northwest of Barbados and south of Martinique. It covers a land area of 617 km2 (238 square miles) and reported a population of 165,595 in the 2010 census. St. Lucia's largest city is Castries, its current capital, and its second largest is Soufrière, the first French colonial capital on the island.",inline=False)
+  embed.add_field(name="Capital",value="Basseterre",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lc:969511116763979806>",inline=False)
+  embed.add_field(name="Population",value="184,961",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.48 billion",inline=False)
+  embed.add_field(name="Currency",value="East Carribean dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+1 758",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SaintVincentandtheGrenadines(ctx):
+  embed=discord.Embed(title="Saint Vincent and the Grenadines",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Saint Vincent and the Grenadines is an island country in the Caribbean. It is located in the southeast Windward Islands of the Lesser Antilles, which lie in the West Indies at the southern end of the eastern border of the Caribbean Sea where the latter meets the Atlantic Ocean.",inline=False)
+  embed.add_field(name="Capital",value="Kingstown",inline=False)
+  embed.add_field(name="Flag",value="<:flag_vc:969512504260718674>",inline=False)
+  embed.add_field(name="Population",value="110,211",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.37 billion",inline=False)
+  embed.add_field(name="Currency",value="East Carribean dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+1 784",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Samoa(ctx):
+  embed=discord.Embed(title="Samoa",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Samoa is a Polynesian island country consisting of two main islands (Savai'i and Upolu), two smaller, inhabited islands (Manono and Apolima), and several smaller, uninhabited islands, including the Aleipata Islands (Nu'utele, Nu'ulua, Fanuatapu and Namua). Samoa is located 64 km (40 mi) west of American Samoa, 889 km (552 mi) northeast of Tonga (closest foreign country), 1,152 km (716 mi) northeast of Fiji, 483 km (300 mi) east of Wallis and Futuna, 1,151 km (715 mi) southeast of Tuvalu, 519 km (322 mi) south of Tokelau, 4,190 km (2,600 mi) southwest of Hawaii, and 610 km (380 mi) northwest of Niue. The capital city is Apia. The Lapita people discovered and settled the Samoan Islands around 3,500 years ago.",inline=False)
+  embed.add_field(name="Capital",value="Apia",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ws:969513334175059999>",inline=False)
+  embed.add_field(name="Population",value="202,506",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.18 billion",inline=False)
+  embed.add_field(name="Currency",value="Tala",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +13",inline=False)
+  embed.add_field(name="Dialing Code",value="+685",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SanMarino(ctx):
+  embed=discord.Embed(title="San Marino",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="San Marino, officially the Republic of San Marino (Italian: Repubblica di San Marino; Romagnol: Ripóbblica d' San Marein), also known as the Most Serene Republic of San Marino (Italian: Serenissima Repubblica di San Marino), is a small country (and a European microstate) in Southern Europe enclaved by Italy. Located on the northeastern side of the Apennine Mountains, San Marino covers a land area of just over 61 sq km (24 sq mi), and has a population of 33,562.",inline=False)
+  embed.add_field(name="Capital",value="Sao Tome",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sm:969514171433639946>",inline=False)
+  embed.add_field(name="Population",value="33,600",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.09 billion",inline=False)
+  embed.add_field(name="Currency",value="Dobra",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+378",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SaoTomeandPrincipe(ctx):
+  embed=discord.Embed(title="Sao Tome and Principe",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="officially the Democratic Republic of São Tomé and Príncipe (Portuguese: República Democrática de São Tomé e Príncipe), is an island country in the Gulf of Guinea, off the western equatorial coast of Central Africa. It consists of two archipelagos around the two main islands of São Tomé and Príncipe, about 150 km (93.21 mi) apart and about 250 and 225 km (155 and 140 mi) off the north-western coast of Gabon. With a population of 201,800 (2018 official estimate), São Tomé and Príncipe is the second-smallest and second-least populous African sovereign state after Seychelles.",inline=False)
+  embed.add_field(name="Capital",value="San Marino",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sm:969514171433639946>",inline=False)
+  embed.add_field(name="Population",value="211,028",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$685 million",inline=False)
+  embed.add_field(name="Currency",value="Dobra",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+239",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SaudiArabia(ctx):
+  embed=discord.Embed(title="Saudi Arabia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Saudi Arabia, is a country on the Arabian Peninsula in Western Asia. It has a land area of about 2,150,000 sq km (830,000 sq mi), making it the fifth-largest country in Asia, the second-largest in the Arab world, and the largest in Western Asia. It is bordered by the Red Sea to the west; Jordan, Iraq, and Kuwait to the north; the Persian Gulf, Qatar and the United Arab Emirates to the east; Oman to the southeast; and Yemen to the south. Bahrain is an island country off the east coast. The Gulf of Aqaba in the northwest separates Saudi Arabia from Egypt. Saudi Arabia is the only country with a coastline along both the Red Sea and the Persian Gulf, and most of its terrain consists of arid desert, lowland, steppe, and mountains. Its capital and largest city is Riyadh.",inline=False)
+  embed.add_field(name="Capital",value="Riyadh",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sa:969516323702968340>",inline=False)
+  embed.add_field(name="Population",value="34.21 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.87 trillion",inline=False)
+  embed.add_field(name="Currency",value="Saudi Riyal",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+966",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Senegal(ctx):
+  embed=discord.Embed(title="Senegal",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Senegal, officially the Republic of Senegal is a country in West Africa. It is bordered by Mauritania in the north, Mali to the east, Guinea to the southeast, and Guinea-Bissau to the southwest. It nearly surrounds The Gambia, a country occupying a narrow sliver of land along the banks of the Gambia River, which separates Senegal's southern region of Casamance from the rest of the country. Senegal also shares a maritime border with Cape Verde. Its economic and political capital is Dakar. ",inline=False)
+  embed.add_field(name="Capital",value="Dakar",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sn:969522949679902720>",inline=False)
+  embed.add_field(name="Population",value="15.85 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$66.43 billion",inline=False)
+  embed.add_field(name="Currency",value="West African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+221",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Serbia(ctx):
+  embed=discord.Embed(title="Serbia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Serbia, officially the Republic of Serbia (Serbian: Република Србија, Republika Srbija, pronounced [repǔblika sř̩bija], is a landlocked country in Southeast Europe, at the crossroads of the Pannonian Plain and the Balkans. It shares land borders with Hungary to the north, Romania to the northeast, Bulgaria to the southeast, North Macedonia to the south, Croatia and Bosnia and Herzegovina to the west, and Montenegro to the southwest, and claiming a border with Albania through the disputed territory of Kosovo. Serbia with Kosovo has about 8.6 million inhabitants. Its capital Belgrade is also the largest city. ",inline=False)
+  embed.add_field(name="Capital",value="Belagrade",inline=False)
+  embed.add_field(name="Flag",value="<:flag_rs:969524510363623424>",inline=False)
+  embed.add_field(name="Population",value="7.18 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$157.40 billion",inline=False)
+  embed.add_field(name="Currency",value="Serbian dinar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+381",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Seychelles(ctx):
+  embed=discord.Embed(title="Seychelles",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Seychelles, officially the Republic of Seychelles (French: République des Seychelles; Creole: La Repiblik Sesel), is an archipelagic island country consisting of 115 islands in the Indian Ocean at the eastern edge of the Somali Sea. Its capital and largest city, Victoria, is 1,500 kilometres (800 nautical miles) east of mainland Africa. Nearby island countries and territories include the Comoros, Madagascar, Mauritius, and the French overseas regions of Mayotte and Réunion to the south; and Maldives and the Chagos Archipelago (administered by the United Kingdom as the British Indian Ocean Territory) to the east. It is the least populous sovereign African country, with an estimated 2020 population of 98,462.",inline=False)  
+  embed.add_field(name="Capital",value="Victoria",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sc:969527460620304415>",inline=False)
+  embed.add_field(name="Population",value="99,331",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$3.5 billion",inline=False)
+  embed.add_field(name="Currency",value="Seychellois rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +4",inline=False)
+  embed.add_field(name="Dialing Code",value="+248",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SierraLeone(ctx):
+  embed=discord.Embed(title="Sierra Leone",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Sierra Leone, officially the Republic of Sierra Leone, informally Salone, is a country on the southwest coast of West Africa. It is bordered by Liberia to the southeast and Guinea surrounds the northern half of the nation. Sierra Leone has a tropical climate with a diverse environment ranging from savanna to rainforests, a total area of 71,740 sq km (27,699 sq mi) and a population of 7,092,113 as of the 2015 census. The capital and largest city is Freetown. The country is divided into five administrative regions which are subdivided into sixteen districts.",inline=False)  
+  embed.add_field(name="Capital",value="Freetown",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sl:969528934398050314>",inline=False)
+  embed.add_field(name="Population",value="8.05 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$12.17 billion",inline=False)
+  embed.add_field(name="Currency",value="Leone",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+232",inline=False)
+  await ctx.send(embed=embed)
+
+@client.command()
+async def Singapore(ctx):
+  embed=discord.Embed(title="Singapore",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula, bordering the Strait of Malacca to the west, the Singapore Strait to the south, the South China Sea to the east and the Straits of Johor to the north. The country's territory is composed of one main island, 63 satellite islands and islets, and one outlying islet, the combined area of which has increased by 25% since the country's independence as a result of extensive land reclamation projects.",inline=False)  
+  embed.add_field(name="Capital",value="Singapore",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sg:969529951021854740>",inline=False)
+  embed.add_field(name="Population",value="5.45 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$600.06 billion",inline=False)
+  embed.add_field(name="Currency",value="Singapore dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +8",inline=False)
+  embed.add_field(name="Dialing Code",value="+65",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Slovakia(ctx):
+  embed=discord.Embed(title="Slovakia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Slovakia, officially the Slovak Republic (Slovak: Slovenská republika [ˈslɔʋenskaː ˈrepublika], is a landlocked country in Central Europe. It is bordered by Poland to the north, Ukraine to the east, Hungary to the south, Austria to the southwest, and the Czech Republic to the northwest. Slovakia's mostly mountainous territory spans about 49,000 square kilometres (19,000 sq mi), with a population of over 5.4 million. The capital and largest city is Bratislava, while the second largest city is Košice.",inline=False)  
+  embed.add_field(name="Capital",value="Bratislava",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sk:969530593849262150>",inline=False)
+  embed.add_field(name="Population",value="5.44 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$203.24 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 and UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+421",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Slovenia(ctx):
+  embed=discord.Embed(title="Slovenia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Slovenia, officially the Republic of Slovenia (Slovene: Republika Slovenija, abbr.: RS), is a country in Central Europe. It is bordered by Italy to the west, Austria to the north, Hungary to the northeast, Croatia to the southeast, and the Adriatic Sea to the southwest. Slovenia is mostly mountainous and forested, covers 20,271 square kilometres (7,827 sq mi), and has a population of 2.1 million (2,108,708 people). Slovenes constitute over 80% of the country's population. Slovene, a South Slavic language, is the official language.",inline=False)  
+  embed.add_field(name="Capital",value="Ljubljana",inline=False)
+  embed.add_field(name="Flag",value="<:flag_si:969532014531342356>",inline=False)
+  embed.add_field(name="Population",value="2.10 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$97.7 billion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 and UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+386",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SolomonIslands(ctx):
+  embed=discord.Embed(title="Solomon Islands",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Solomon Islands consisting of six major islands and over 900 smaller islands in Oceania, to the east of Papua New Guinea and northwest of Vanuatu. It has a land area of 28,400 square kilometres (11,000 sq mi), and a population of 652,858. Its capital, Honiara, is located on the largest island, Guadalcanal. The country takes its name from the Solomon Islands archipelago, which is a collection of Melanesian islands that also includes the North Solomon Islands (a part of Papua New Guinea), but excludes outlying islands, such as the Santa Cruz Islands and Rennell and Bellona.",inline=False)  
+  embed.add_field(name="Capital",value="Honiara",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sb:969533532361875480>",inline=False)
+  embed.add_field(name="Population",value="652,857",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.47 billion",inline=False)
+  embed.add_field(name="Currency",value="Solomon Islands dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +11",inline=False)
+  embed.add_field(name="Dialing Code",value="+677",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Somalia(ctx):
+  embed=discord.Embed(title="Somalia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Somalia, is a country in the Horn of Africa. The country is bordered by Ethiopia to the west, Djibouti to the northwest, the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest. Somalia has the longest coastline on Africa's mainland. Its terrain consists mainly of plateaus, plains, and highlands. Hot conditions prevail year-round, with periodic monsoon winds and irregular rainfall. Somalia has an estimated population of around 15 million, of which over 2 million live in the capital and largest city Mogadishu, and has been described as Africa's most culturally homogeneous country.",inline=False)  
+  embed.add_field(name="Capital",value="Mogadishu",inline=False)
+  embed.add_field(name="Flag",value="<:flag_so:969534172169371689>",inline=False)
+  embed.add_field(name="Population",value="15.89 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$13.32 billion",inline=False)
+  embed.add_field(name="Currency",value="Somali shilling",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+252",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SouthAfrica(ctx):
+  embed=discord.Embed(title="South Africa",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="South Africa, officially the Republic of South Africa (RSA), is the southernmost country in Africa. With over 60 million people, the country is the world's 23rd-most populous nation and covers an area of 1,221,037 square kilometres (471,445 square miles). South Africa has three capital cities, with the executive, judicial and legislative branches of government based in Pretoria, Bloemfontein and Cape Town respectively. The largest city is Johannesburg.",inline=False)  
+  embed.add_field(name="Capital",value="Pretoria (Executive), Cape Town (Legislative) and Bloemfontein (Judicial)",inline=False)
+  embed.add_field(name="Flag",value="<:flag_za:969535408633421874>",inline=False)
+  embed.add_field(name="Population",value="60.14 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$924 billion",inline=False)
+  embed.add_field(name="Currency",value="South African rand",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+27",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SouthKorea(ctx):
+  embed=discord.Embed(title="South Korea",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="South Korea, officially the Republic of Korea (ROK), is a country in East Asia, constituting the southern part of the Korean Peninsula and sharing a land border with North Korea. Its western border is formed by the Yellow Sea, while its eastern border is defined by the Sea of Japan. South Korea claims to be the sole legitimate government of the entire peninsula and adjacent islands. It has a population of 51 million, of which roughly half live in the Seoul Capital Area, the fifth largest metropolis in the world. Other major cities include Incheon, Busan, and Daegu.",inline=False)  
+  embed.add_field(name="Capital",value="Seoul",inline=False)
+  embed.add_field(name="Flag",value="<:flag_kr:969535977754361869>",inline=False)
+  embed.add_field(name="Population",value="51.70 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.43 trillion",inline=False)
+  embed.add_field(name="Currency",value="Korean Republic won",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +9",inline=False)
+  embed.add_field(name="Dialing Code",value="+82",inline=False)
+  await ctx.send(embed=embed)  
+  
+  
 keep_alive()
 TOKEN=os.environ.get("DISCORD_BOT_SECRET")
 client.run(TOKEN)

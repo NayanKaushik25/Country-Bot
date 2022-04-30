@@ -2336,6 +2336,292 @@ async def SouthKorea(ctx):
   await ctx.send(embed=embed)  
   
   
+  
+@client.command()
+async def SouthSudan(ctx):
+  embed=discord.Embed(title="South Sudan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="South Sudan, officially known as the Republic of South Sudan, is a landlocked country in Central Africa. It is bordered by Ethiopia, Sudan, Central African Republic, Democratic Republic of the Congo, Uganda and Kenya. Its population was estimated as 12,778,250 in 2019. Juba is the capital and largest city. The nation is sometimes informally referred to as the Nilotic Republic.",inline=False)  
+  embed.add_field(name="Capital",value="Juba",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ss:969853080990523463>",inline=False)
+  embed.add_field(name="Population",value="12.77 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$18.43 billion",inline=False)
+  embed.add_field(name="Currency",value="South Sudanese pound",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+211",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Spain(ctx):
+  embed=discord.Embed(title="Spain",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Spain or the Kingdom of Spain (Spanish: Reino de España),[a] is a country in southwestern Europe with parts of territory in the Atlantic Ocean and across the Mediterranean Sea. The largest part of Spain is situated on the Iberian Peninsula; its territory also includes the Canary Islands in the Atlantic Ocean, the Balearic Islands in the Mediterranean Sea, the autonomous cities of Ceuta and Melilla, and several minor overseas territories also scattered along the Moroccan coast of the Alboran Sea.[13] The country's mainland is bordered to the south by Gibraltar; to the south and east by the Mediterranean Sea; to the north by France, Andorra and the Bay of Biscay; and to the west by Portugal and the Atlantic Ocean.",inline=False)  
+  embed.add_field(name="Capital",value="Madrid",inline=False)
+  embed.add_field(name="Flag",value="<:flag_es:969854146842857492>",inline=False)
+  embed.add_field(name="Population",value="47.45 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$2.20 trillion",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC to UTC +1 or UTC +1 to UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+34",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def SriLanka(ctx):
+  embed=discord.Embed(title="Sri Lanka",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Sri Lanka, formerly known as Ceylon, and officially the Democratic Socialist Republic of Sri Lanka, is an island country in South Asia. It lies in the Indian Ocean, southwest of the Bay of Bengal, and southeast of the Arabian Sea; it is separated from the Indian subcontinent by the Gulf of Mannar and the Palk Strait. Sri Lanka shares a maritime border with India and the Maldives. Sri Jayawardenepura Kotte is its legislative capital, and Colombo is its largest city and financial centre.",inline=False)  
+  embed.add_field(name="Capital",value="Colombo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_lk:969854897677824090>",inline=False)
+  embed.add_field(name="Population",value="22.15 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$84.53 billion",inline=False)
+  embed.add_field(name="Currency",value="Sri Lankan rupee",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5:30",inline=False)
+  embed.add_field(name="Dialing Code",value="+94",inline=False)
+  await ctx.send(embed=embed)
+
+@client.command()
+async def Sudan(ctx):
+  embed=discord.Embed(title="Sudan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Sudan,  officially the Republic of the Sudan (Arabic: جمهورية السودان, romanized: Jumhūriyyat as-Sūdān) and also known as North Sudan, is a country in Northeast Africa. It shares borders with the Central African Republic to the southwest, Chad to the west, Egypt to the north, Eritrea to the northeast, Ethiopia to the southeast, Libya to the northwest, South Sudan to the south and the Red Sea. It has a population of 45.70 million people as of 2022[13] and occupies 1,886,068 square kilometres (728,215 square miles), making it Africa's third-largest country by area, and the third-largest by area in the Arab League.",inline=False)  
+  embed.add_field(name="Capital",value="Khartoum",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sd:969855676740403280>",inline=False)
+  embed.add_field(name="Population",value="45.70 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$177.67 billion",inline=False)
+  embed.add_field(name="Currency",value="Sudanese pound",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+249",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Suriname(ctx):
+  embed=discord.Embed(title="Suriname",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Suriname, officially known as the Republic of Suriname (Dutch: Republiek Suriname [reːpyˌblik ˌsyːriˈnaːmə]), is a country on the northeastern Atlantic coast of South America. It is bordered by the Atlantic Ocean to the north, French Guiana to the east, Guyana to the west, and Brazil to the south. At just under 165,000 square kilometers (64,000 square miles), it is the smallest sovereign state in South America.[note 1] It has a population of approximately 575,990, most of whom live on the country's north coast, in and around its capital and largest city, Paramaribo.",inline=False)  
+  embed.add_field(name="Capital",value="Paramaribo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sr:969856306724876328>",inline=False)
+  embed.add_field(name="Population",value="575,990",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$9.04 billion",inline=False)
+  embed.add_field(name="Currency",value="Surinamese dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -3",inline=False)
+  embed.add_field(name="Dialing Code",value="+597",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Sweeden(ctx):
+  embed=discord.Embed(title="Sweeden",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Sweeden, officially the Kingdom of Sweden (Swedish: Konungariket Sverige [ˈkôːnɵŋaˌriːkɛt ˈsvæ̌rjɛ], is a Nordic country in Northern Europe. It borders Norway to the west and north, Finland to the east, and is connected to Denmark in the southwest by a bridge-tunnel across the Öresund. At 450,295 square kilometres (173,860 sq mi), Sweden is the largest country in Northern Europe, the third-largest country in the European Union, and the fifth largest country in Europe. The capital and largest city is Stockholm.",inline=False)  
+  embed.add_field(name="Capital",value="Stockholm",inline=False)
+  embed.add_field(name="Flag",value="<:flag_se:969857119903948820>",inline=False)
+  embed.add_field(name="Population",value="10.40 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$563.88 billion",inline=False)
+  embed.add_field(name="Currency",value="Sweedish krona",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+46",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Switzerland(ctx):
+  embed=discord.Embed(title="Switzerland",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Switzerland, officially the Swiss Confederation, is a landlocked country at the confluence of Western, Central and Southern Europe. The country is a federal republic composed of 26 cantons, with federal authorities based in Bern. Switzerland is bordered by Italy to the south, France to the west, Germany to the north and Austria and Liechtenstein to the east. It is geographically divided among the Swiss Plateau, the Alps and the Jura, spanning a total area of 41,285 sq km (15,940 sq mi) and land area of 39,997 sq km (15,443 sq mi). Although the Alps occupy the greater part of the territory, the Swiss population of approximately 8.5 million is concentrated mostly on the plateau, where the largest cities and economic centres are, among them Zürich, Geneva and Basel. These three cities are home to several offices of international organisations such as the WTO, the WHO, the ILO, the headquarters of FIFA, the UN's second-largest office, as well as the main office of the Bank for International Settlements.",inline=False)  
+  embed.add_field(name="Capital",value="Bern (de facto)",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ch:969858213874913310>",inline=False)
+  embed.add_field(name="Population",value="8.57 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$584 billion",inline=False)
+  embed.add_field(name="Currency",value="Swiss franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+41",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Syria(ctx):
+  embed=discord.Embed(title="Syria",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Syria, officially the Syrian Arab Republic (Arabic: ٱلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ ٱلسُّورِيَّةُ, romanized: al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah), is a country in Western Asia. Syria borders the Mediterranean Sea to the west, Turkey to the north, Iraq to the east and southeast, Jordan to the south, and Israel and Lebanon to the southwest. Cyprus lies to the west across the Mediterranean Sea. A country of fertile plains, high mountains, and deserts, Syria is home to diverse ethnic and religious groups, including the majority Syrian Arabs, Kurds, Turkmens, Assyrians, Armenians, Circassians, and Greeks. Religious groups include Sunnis, Christians, Alawites, Druze, Isma'ilis, Shiites, Salafis, and Yazidis. The capital and largest city of Syria is Damascus.",inline=False)  
+  embed.add_field(name="Capital",value="Damascus",inline=False)
+  embed.add_field(name="Flag",value="<:flag_sy:969858864688300102>",inline=False)
+  embed.add_field(name="Population",value="17.50 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$50.28 billion",inline=False)
+  embed.add_field(name="Currency",value="Syrian pound",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+963",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries Starting with T
+@client.command()
+async def Taiwan(ctx):
+  embed=discord.Embed(title="Taiwan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Taiwan,  officially the Republic of China (ROC), is a country in East Asia, at the junction of the East and South China Seas in the northwestern Pacific Ocean, with the People's Republic of China (PRC) to the northwest, Japan to the northeast, and the Philippines to the south. The territories controlled by the ROC consist of 168 islands, with a combined area of 36,193 square kilometres (13,974 sq mi). The main island of Taiwan, formerly known as Formosa, has an area of 35,808 square kilometres (13,826 sq mi), with mountain ranges dominating the eastern two-thirds and plains in the western third, where its highly urbanised population is concentrated. The capital, Taipei, forms along with New Taipei City and Keelung the largest metropolitan area of Taiwan. Other major cities include Kaohsiung, Taichung, Tainan, and Taoyuan. With 23.45 million inhabitants, Taiwan is among the most densely populated countries in the world.",inline=False)  
+  embed.add_field(name="Capital",value="Taipei",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tw:969863016000671744>",inline=False)
+  embed.add_field(name="Population",value="23.45 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.40 trillion",inline=False)
+  embed.add_field(name="Currency",value="New Taiwan dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +8",inline=False)
+  embed.add_field(name="Dialing Code",value="+886",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Tajikistan(ctx):
+  embed=discord.Embed(title="Tajikistan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Tajikistan,  officially the Republic of Tajikistan (Tajik: Ҷумҳурии Тоҷикистон, romanized: Jumhurii Tojikiston), is a landlocked country in Central Asia. It has an area of 143,100 sq km (55,300 sq mi) and an estimated population of 9,537,645 people. Its capital and largest city is Dushanbe. It is bordered by Afghanistan to the south, Uzbekistan to the west, Kyrgyzstan to the north and China to the east. It is separated narrowly from Pakistan by Afghanistan's Wakhan Corridor. The traditional homelands of the Tajik people include present-day Tajikistan as well as parts of Afghanistan and Uzbekistan.",inline=False)  
+  embed.add_field(name="Capital",value="Dushanbe",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tj:969863791225475072>",inline=False)
+  embed.add_field(name="Population",value="9.53 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$30.54 billion",inline=False)
+  embed.add_field(name="Currency",value="Somoni",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5",inline=False)
+  embed.add_field(name="Dialing Code",value="+992",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Tanzania(ctx):
+  embed=discord.Embed(title="Tanzania",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Tanzania, officially the United Republic of Tanzania (Swahili: Jamhuri ya Muungano wa Tanzania), is a country in East Africa within the African Great Lakes region. It borders Uganda to the north; Kenya to the northeast; Comoro Islands and the Indian Ocean to the east; Mozambique and Malawi to the south; Zambia to the southwest; and Rwanda, Burundi, and the Democratic Republic of the Congo to the west. Mount Kilimanjaro, Africa's highest mountain, is in northeastern Tanzania.",inline=False)  
+  embed.add_field(name="Capital",value="Dodoma",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tz:969864285968805889>",inline=False)
+  embed.add_field(name="Population",value="61.19 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$205.48 billion",inline=False)
+  embed.add_field(name="Currency",value="Tanzanian shilling",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+255",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Thailand(ctx):
+  embed=discord.Embed(title="Thailand",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Thailand, historically known as Siam (/saɪˈæm, ˈsaɪæm/) and officially the Kingdom of Thailand, is a country in Southeast Asia spanning 513,120 square kilometres (198,120 sq mi), with a population of almost 70 million. It is bordered to the north by Myanmar and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia, and to the west by the Andaman Sea and Myanmar. Thailand also shares maritime borders with Vietnam to the southeast, and Indonesia and India to the southwest. Thailand has experienced multiple coups and military dictatorships. Since 2019, Thailand has been nominally a parliamentary constitutional monarchy.",inline=False)  
+  embed.add_field(name="Capital",value="Bangkok",inline=False)
+  embed.add_field(name="Flag",value="<:flag_th:969865295076393001>",inline=False)
+  embed.add_field(name="Population",value="66.17 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.47 trillion",inline=False)
+  embed.add_field(name="Currency",value="Baht",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7",inline=False)
+  embed.add_field(name="Dialing Code",value="+66",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def TimorLeste(ctx):
+  embed=discord.Embed(title="Timor Liste",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Timor Leste, officially the Democratic Republic of Timor-Leste (Portuguese: República Democrática de Timor-Leste, Tetum: Repúblika Demokrátika Timór-Leste) is an island country in Southeast Asia. It comprises the eastern half of the island of Timor, the nearby islands of Atauro and Jaco, and Oecusse, an exclave on the northwestern side of the island surrounded by Indonesian West Timor. Australia is the country's southern neighbour, separated by the Timor Sea. The country's size is 15,007 square kilometres (5,794 sq mi). Dili is its capital. ",inline=False)  
+  embed.add_field(name="Capital",value="Dili",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tl:969867633103089764>",inline=False)
+  embed.add_field(name="Population",value="1.34 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$5.31 billion",inline=False)
+  embed.add_field(name="Currency",value="United States dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +9",inline=False)
+  embed.add_field(name="Dialing Code",value="+670",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Togo(ctx):
+  embed=discord.Embed(title="Togo",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Thailand, historically known as Siam (/saɪˈæm, ˈsaɪæm/) and officially the Kingdom of Thailand, is a country in Southeast Asia spanning 513,120 square kilometres (198,120 sq mi), with a population of almost 70 million. It is bordered to the north by Myanmar and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia, and to the west by the Andaman Sea and Myanmar. Thailand also shares maritime borders with Vietnam to the southeast, and Indonesia and India to the southwest. Thailand has experienced multiple coups and military dictatorships. Since 2019, Thailand has been nominally a parliamentary constitutional monarchy.",inline=False)  
+  embed.add_field(name="Capital",value="Lome",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tg:969868558869864468>",inline=False)
+  embed.add_field(name="Population",value="8.60 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$14.91 billion",inline=False)
+  embed.add_field(name="Currency",value="West African CFA franc",inline=False)
+  embed.add_field(name="Time Zone",value="UTC",inline=False)
+  embed.add_field(name="Dialing Code",value="+228",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Tonga(ctx):
+  embed=discord.Embed(title="Tonga",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Tonga, officially named the Kingdom of Tonga (Tongan: Puleʻanga Fakatuʻi ʻo Tonga), is a Polynesian country and also an archipelago consisting of 169 islands, of which 36 are inhabited. The total surface area of the archipelago is about 750 sq km (290 sq mi), scattered over 700,000 sq km (270,000 sq mi) of the southern Pacific Ocean.",inline=False)  
+  embed.add_field(name="Capital",value="Nuku'alofa",inline=False)
+  embed.add_field(name="Flag",value="<:flag_to:969869284320878632>",inline=False)
+  embed.add_field(name="Population",value="100,209",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$655 million",inline=False)
+  embed.add_field(name="Currency",value="Pa'anga",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +13",inline=False)
+  embed.add_field(name="Dialing Code",value="+676",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def TrinidadandTobago(ctx):
+  embed=discord.Embed(title="Trinidad and Tobago",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Trinidad and Tobago, officially the Republic of Trinidad and Tobago, is the southernmost island country in the Caribbean. It is known for its fossil-fuel wealth. Consisting of the main islands Trinidad and Tobago, and numerous much smaller islands, it is situated 130 kilometres (81 miles) south of Grenada and 11 kilometres (6.8 miles) off the coast of northeastern Venezuela. It shares maritime boundaries with Barbados to the northeast, Grenada to the northwest and Venezuela to the south and west. Trinidad and Tobago is generally considered to be part of the West Indies.",inline=False)  
+  embed.add_field(name="Capital",value="Port of Spain",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tt:969870317113720853>",inline=False)
+  embed.add_field(name="Population",value="1.36 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$45.14 billion",inline=False)
+  embed.add_field(name="Currency",value="Trinidad and Tobago dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+1",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Tunisia(ctx):
+  embed=discord.Embed(title="Tunisia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Tunisia, officially the Republic of Tunisia, is the northernmost country in Africa. It is a part of the Maghreb region of North Africa, and is bordered by Algeria to the west and southwest, Libya to the southeast, and the Mediterranean Sea to the north and east; covering 163,610 sq km (63,170 sq mi), with a population of 11 million. It contains the eastern end of the Atlas Mountains and the northern reaches of the Sahara desert, with much of its remaining territory arable land. Its 1,300 km (810 mi) of coastline include the African conjunction of the western and eastern parts of the Mediterranean Basin.",inline=False)  
+  embed.add_field(name="Capital",value="Tunis",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tn:969871143383212042>",inline=False)
+  embed.add_field(name="Population",value="11.70",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$159.70 billion",inline=False)
+  embed.add_field(name="Currency",value="Tunisian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+216",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Turkey(ctx):
+  embed=discord.Embed(title="Turkey",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Turkey, officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuːɾijeti]), is a transcontinental country located mainly on Anatolia in Western Asia, with a portion on the Balkans in Southeast Europe. It shares borders with Greece and Bulgaria to the northwest; the Black Sea to the north; Georgia to the northeast; Armenia, Azerbaijan, and Iran to the east; Iraq to the southeast; Syria and the Mediterranean Sea to the south; and the Aegean Sea to the west. Cyprus is located off the south coast. Turks form the vast majority of the nation's population and Kurds are the largest minority.",inline=False)  
+  embed.add_field(name="Capital",value="Ankara",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tr:969871725200302132>",inline=False)
+  embed.add_field(name="Population",value="84.68",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$3.21 trillion",inline=False)
+  embed.add_field(name="Currency",value="Turkish lira",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+90",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Turkmenistan(ctx):
+  embed=discord.Embed(title="Turkmenistan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Turkmenistan, also known as Turkmenia, is a landlocked country in Central Asia, bordered by Kazakhstan to the northwest, Uzbekistan to the north, east and northeast, Afghanistan to the southeast, Iran to the south and southwest and the Caspian Sea to the west. Ashgabat is the capital and largest city of the country. The population of the country is about 6 million, the lowest of the Central Asian republics.",inline=False)  
+  embed.add_field(name="Capital",value="Ashgabat",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tm:969872234514612304>",inline=False)
+  embed.add_field(name="Population",value="6.03",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$112.65 million",inline=False)
+  embed.add_field(name="Currency",value="Turkmenistan manat",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +5",inline=False)
+  embed.add_field(name="Dialing Code",value="+993",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Tuvalu(ctx):
+  embed=discord.Embed(title="Tuvalu",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Tuvalu, is an island country in the Polynesian subregion of Oceania in the Pacific Ocean. Its islands are situated about midway between Hawaii and Australia. They lie east-northeast of the Santa Cruz Islands (which belong to the Solomon Islands), northeast of Vanuatu, southeast of Nauru, south of Kiribati, west of Tokelau, northwest of Samoa and Wallis and Futuna, and north of Fiji. Tuvalu is composed of three reef islands and six atolls. They are spread out between the latitude of 5° and 10° south and between the longitude of 176° and 180°. They lie west of the International Date Line. Tuvalu has a population of 10,507 (2017 census). The total land area of the islands of Tuvalu is 26 square kilometres (10 sq mi).",inline=False)  
+  embed.add_field(name="Capital",value="Funafuti",inline=False)
+  embed.add_field(name="Flag",value="<:flag_tv:969873011165495344>",inline=False)
+  embed.add_field(name="Population",value="11,900",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$39 million",inline=False)
+  embed.add_field(name="Currency",value="Tuvaluan dollar or Australian dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +12",inline=False)
+  embed.add_field(name="Dialing Code",value="+688",inline=False)
+  await ctx.send(embed=embed)  
+  
+  
+  
+  
+  
 keep_alive()
 TOKEN=os.environ.get("DISCORD_BOT_SECRET")
 client.run(TOKEN)

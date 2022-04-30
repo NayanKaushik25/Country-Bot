@@ -2619,6 +2619,104 @@ async def Tuvalu(ctx):
   await ctx.send(embed=embed)  
   
   
+
+#Countries starting with U
+@client.command()
+async def Uganda(ctx):
+  embed=discord.Embed(title="Uganda",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Uganda,  officially the Republic of Uganda (Swahili: Jamhuri ya Uganda[11]), is a landlocked country in East Africa. The country is bordered to the east by Kenya, to the north by South Sudan, to the west by the Democratic Republic of the Congo, to the south-west by Rwanda, and to the south by Tanzania. The southern part of the country includes a substantial portion of Lake Victoria, shared with Kenya and Tanzania. Uganda is in the African Great Lakes region. Uganda also lies within the Nile basin and has a varied but generally a modified equatorial climate. It has a population of over 42 million, of which 8.5 million live in the capital and largest city of Kampala.",inline=False)  
+  embed.add_field(name="Capital",value="Kampala",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ug:969947568643657768>",inline=False)
+  embed.add_field(name="Population",value="42.72 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$126.52 million",inline=False)
+  embed.add_field(name="Currency",value="Ugandan shilling",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+256",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Ukraine(ctx):
+  embed=discord.Embed(title="Ukraine",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Ukraine is a country in Eastern Europe. It is the second largest country in Europe after Russia, which borders it to the east and north-east. Ukraine also shares borders with Belarus to the north; Poland, Slovakia, and Hungary to the west; Romania and Moldova to the south; and has a coastline along the Sea of Azov and the Black Sea. It covers about 600,000 sq km (230,000 sq mi), with a population of about 40 million. The nation's capital and largest city is Kyiv. The official and national language is Ukrainian, and most people are also fluent in Russian.",inline=False)  
+  embed.add_field(name="Capital",value="Kyiv",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ua:969948538136059944>",inline=False)
+  embed.add_field(name="Population",value="41.16 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$584 million",inline=False)
+  embed.add_field(name="Currency",value="Hryvnia",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2 or UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+380",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def UAE(ctx):
+  embed=discord.Embed(title="United Arab Emirates",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="United Arab Emirates, or simply the Emirates (Arabic: الإمارات al-ʾImārāt), is a country in Western Asia. It is located at the eastern end of the Arabian Peninsula, and shares borders with Oman and Saudi Arabia, while having maritime borders in the Persian Gulf with Qatar and Iran. Abu Dhabi is the nation's capital, while Dubai, the most populous city, is an international hub.",inline=False)  
+  embed.add_field(name="Capital",value="Abu Dhabi",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ae:969949961225662465>",inline=False)
+  embed.add_field(name="Population",value="9.28 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$726.39 million",inline=False)
+  embed.add_field(name="Currency",value="UAE dirham",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +4",inline=False)
+  embed.add_field(name="Dialing Code",value="+971",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def UnitedKingdom(ctx):
+  embed=discord.Embed(title="United Kingdom",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain,[note 1][19] is a sovereign country in north-western Europe, off the north western coast of the European mainland. The United Kingdom includes the island of Great Britain, the north eastern part of the island of Ireland, and many smaller islands within the British Isles.[22] Northern Ireland shares a land border with the Republic of Ireland. Otherwise, the United Kingdom is surrounded by the Atlantic Ocean, with the North Sea to the east, the English Channel to the south and the Celtic Sea to the south-west, giving it the 12th-longest coastline in the world. The Irish Sea separates Great Britain and Ireland. The total area of the United Kingdom is 93,628 square miles (242,500 sq km), with an estimated population in 2020 of over 67 million.",inline=False)  
+  embed.add_field(name="Capital",value="London",inline=False)
+  embed.add_field(name="Flag",value="<:flag_gb:969952211876593715>",inline=False)
+  embed.add_field(name="Population",value="67.08 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$3.75 trillion",inline=False)
+  embed.add_field(name="Currency",value="Pound sterling",inline=False)
+  embed.add_field(name="Time Zone",value="UTC or UTC +1",inline=False)
+  embed.add_field(name="Dialing Code",value="+44",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def UnitedStates(ctx):
+  embed=discord.Embed(title="United States",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or simply America, is a country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and nine minor outlying islands. At nearly 3.8 million square miles (9.8 million square kilometers), it is the world's fourth-largest country by land area and third-largest by total area. The United States shares land borders with Canada to the north and Mexico to the south as well as maritime borders with the Bahamas, Cuba, and Russia, among others.",inline=False)  
+  embed.add_field(name="Capital",value="Washington, D.C.",inline=False)
+  embed.add_field(name="Flag",value="<:flag_us:969952940800483338>",inline=False)
+  embed.add_field(name="Population",value="331.89 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$25.35 trillion",inline=False)
+  embed.add_field(name="Currency",value="U.S. dollar",inline=False)
+  embed.add_field(name="Dialing Code",value="+1",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Uruguay(ctx):
+  embed=discord.Embed(title="United States",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Uruguay, officially the Oriental Republic of the Uruguay (Spanish: República Oriental del Uruguay), is a country in South America. It shares borders with Argentina to its west and southwest and Brazil to its north and northeast; while bordering the Río de la Plata to the south and the Atlantic Ocean to the southeast. Uruguay covers an area of approximately 176,000 square kilometers (68,000 sq mi) and has a population of an estimated 3.51 million, of whom 2 million live in the metropolitan area of its capital and largest city, Montevideo.",inline=False)  
+  embed.add_field(name="Capital",value="Montevideo",inline=False)
+  embed.add_field(name="Flag",value="<:flag_uy:969953931222478899>",inline=False)
+  embed.add_field(name="Population",value="3.51 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$86.56 billion",inline=False)
+  embed.add_field(name="Currency",value="Uruguayan peso",inline=False)
+  embed.add_field(name="Dialing Code",value="+598",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Uzbekistan(ctx):
+  embed=discord.Embed(title="Uzbekistan",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Uzbekistan, officially the Republic of Uzbekistan (Uzbek: Oʻzbekiston Respublikasi), is a doubly landlocked country in Central Asia. It is surrounded by five landlocked countries: Kazakhstan to the north; Kyrgyzstan to the northeast; Tajikistan to the southeast; Afghanistan to the south; and Turkmenistan to the south-west. Its capital and largest city is Tashkent. Uzbekistan is part of the Turkic languages world, as well as a member of the Organization of Turkic States. Uzbek language is the majority-spoken language in Uzbekistan.",inline=False)  
+  embed.add_field(name="Capital",value="Tashkent",inline=False)
+  embed.add_field(name="Flag",value="<:flag_uz:969954408949497866>",inline=False)
+  embed.add_field(name="Population",value="35.30 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$335.80 billion",inline=False)
+  embed.add_field(name="Currency",value="Uzbek som",inline=False)
+  embed.add_field(name="Dialing Code",value="+998",inline=False)
+  await ctx.send(embed=embed)  
+  
+  
   
   
   

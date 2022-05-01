@@ -2717,7 +2717,144 @@ async def Uzbekistan(ctx):
   await ctx.send(embed=embed)  
   
   
-  
+ 
+
+
+#Countries Starting with V
+@client.command()
+async def Vanuatu(ctx):
+  embed=discord.Embed(title="Vanuatu",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Vanuatu, officially the Republic of Vanuatu (French: République de Vanuatu; Bislama: Ripablik blong Vanuatu), is an island country located in the South Pacific Ocean. The archipelago, which is of volcanic origin, is 1,750 km (1,090 mi) east of northern Australia, 540 km (340 mi) northeast of New Caledonia, east of New Guinea, southeast of the Solomon Islands, and west of Fiji.",inline=False)  
+  embed.add_field(name="Capital",value="Port Vila",inline=False)
+  embed.add_field(name="Flag",value="<:flag_vu:970278423098458146>",inline=False)
+  embed.add_field(name="Population",value="307,815",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$820 million",inline=False)
+  embed.add_field(name="Currency",value="Vatu",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +11",inline=False)
+  embed.add_field(name="Dialing Code",value="+678",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def VaticanCity(ctx):
+  embed=discord.Embed(title="Vatican City",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Vatican City, officially the Vatican City State (Italian: Stato della Città del Vaticano; Latin: Status Civitatis Vaticanae), is an independent city-state and enclave surrounded by Rome, Italy. The Vatican City State, also known simply as the Vatican, became independent from Italy with the Lateran Treaty (1929), and it is a distinct territory under full ownership, exclusive dominion, and sovereign authority and jurisdiction of the Holy See, itself a sovereign entity of international law, which maintains the city state's temporal, diplomatic, and spiritual independence. With an area of 49 hectares (121 acres) and a population of about 825, it is the smallest state in the world by both area and population.",inline=False)  
+  embed.add_field(name="Capital",value="None",inline=False)
+  embed.add_field(name="Flag",value="<:flag_va:970279475294117888>",inline=False)
+  embed.add_field(name="Population",value="453",inline=False)
+  embed.add_field(name="Currency",value="Euro",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +1 or UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+379",inline=False)
+  await ctx.send(embed=embed)
+
+
+                  
+@client.command()
+async def Venezuela(ctx):
+  embed=discord.Embed(title="Venezuela",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Venezuela, officially the Bolivarian Republic of Venezuela (Spanish: República Bolivariana de Venezuela), is a country on the northern coast of South America, consisting of a continental landmass and many islands and islets in the Caribbean Sea. It has a territorial extension of 916,445 sq km (353,841 sq mi), and its population was estimated at 28 million in 2019. The capital and largest urban agglomeration is the city of Caracas.",inline=False)  
+  embed.add_field(name="Capital",value="Caracas",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ve:970280335646539776>",inline=False)
+  embed.add_field(name="Population",value="28.88 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$141.94 billion",inline=False)
+  embed.add_field(name="Currency",value="Venezuelan bolivar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -4",inline=False)
+  embed.add_field(name="Dialing Code",value="+58",inline=False)
+  await ctx.send(embed=embed)
+
+
+@client.command()
+async def Vietnam(ctx):
+  embed=discord.Embed(title="Vietnam",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Vietnam, officially the Socialist Republic of Vietnam, is a country in Southeast Asia. Located at the eastern edge of mainland Southeast Asia, it covers 311,699 square kilometres. With a population of over 96 million, it is the world's fifteenth-most populous country. Vietnam borders China to the north, Laos and Cambodia to the west, and shares maritime borders with Thailand through the Gulf of Thailand, and the Philippines, Indonesia, and Malaysia through the South China Sea. Its capital is Hanoi and its largest city is Ho Chi Minh City.",inline=False)  
+  embed.add_field(name="Capital",value="Ho Chi Minh City",inline=False)
+  embed.add_field(name="Flag",value="<:flag_vn:970281520000553000>",inline=False)
+  embed.add_field(name="Population",value="96.20 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$1.04 trillion",inline=False)
+  embed.add_field(name="Currency",value="dong",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +7",inline=False)
+  embed.add_field(name="Dialing Code",value="+84",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+#Countries starting with Y
+@client.command()
+async def Yemen(ctx):
+  embed=discord.Embed(title="Yemen",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Yemen, officially the Republic of Yemen (Arabic: ٱلْجُمْهُورِيَّةُ ٱلْيَمَنِيَّةُ, romanized: al-Jumhūrīyah al-Yamanīyah, lit. 'the Yemeni Republic'), is a country in Western Asia, on the southern end of the Arabian Peninsula. It borders Saudi Arabia to the north and Oman to the northeast and shares maritime borders with Eritrea, Djibouti, Somaliland and Somalia. It is the second-largest Arab sovereign state in the peninsula, occupying 555,000 square kilometres (214,000 square miles). The coastline stretches for about 2,000 kilometres (1,200 miles). Yemen's constitutionally stated capital, and largest city, is the city of Sanaa. As of 2021, the population of the country is estimated at 30,491,000.",inline=False)  
+  embed.add_field(name="Capital",value="Sanaa",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ye:970282382852775996>",inline=False)
+  embed.add_field(name="Population",value="30.49 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$65.60 billion",inline=False)
+  embed.add_field(name="Currency",value="Yemeni rial",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +3",inline=False)
+  embed.add_field(name="Dialing Code",value="+967",inline=False)
+  await ctx.send(embed=embed)
+
+
+#Countries Starting with Z
+@client.command()
+async def Zambia(ctx):
+  embed=discord.Embed(title="Zambia",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Zambia, officially the Republic of Zambia is a landlocked country at the crossroads of Central, Southern and East Africa, although it is typically referred to as being in South-Central Africa. Its neighbours are the Democratic Republic of the Congo to the north, Tanzania to the north-east, Malawi to the east, Mozambique to the southeast, Zimbabwe and Botswana to the south, Namibia to the southwest, and Angola to the west. The capital city of Zambia is Lusaka, located in the south-central part of Zambia. The population is concentrated mainly around Lusaka in the south and the Copperbelt Province to the north, the core economic hubs of the country.",inline=False)  
+  embed.add_field(name="Capital",value="Lusaka",inline=False)
+  embed.add_field(name="Flag",value="<:flag_zm:970283323303800892>",inline=False)
+  embed.add_field(name="Population",value="17.35 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$75.85 billion",inline=False)
+  embed.add_field(name="Currency",value="Zambian kwacha",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+260",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def Zimbabwe(ctx):
+  embed=discord.Embed(title="Zimbabwe",color=discord.Colour.red())
+  embed.add_field(name="Basic Info",value="Zimbabwe, officially the Republic of Zimbabwe, is a landlocked country located in Southeast Africa, between the Zambezi and Limpopo Rivers, bordered by South Africa to the south, Botswana to the south-west, Zambia to the north, and Mozambique to the east. The capital and largest city is Harare. The second largest city is Bulawayo. A country of roughly 15 million people, Zimbabwe has 16 official languages, with English, Shona, and Ndebele the most common. It was once known as the Jewel of Africa for its great prosperity.",inline=False)  
+  embed.add_field(name="Capital",value="Harare",inline=False)
+  embed.add_field(name="Flag",value="<:flag_zw:970284191549911140>",inline=False)
+  embed.add_field(name="Population",value="15.09 million",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$38.07 billion",inline=False)
+  embed.add_field(name="Currency",value="Zimbabwean dollar and U.S. dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC +2",inline=False)
+  embed.add_field(name="Dialing Code",value="+263",inline=False)
+  await ctx.send(embed=embed)
+
+
+#Extras
+@client.command()
+async def Niue(ctx):
+  embed=discord.Embed(title="Niue",color=discord.Colour.orange())
+  embed.add_field(name="Basic Info",value="Niue is an island country in the South Pacific Ocean, 2,400 kilometres (1,500 mi) northeast of New Zealand. Niue's land area is about 261 square kilometres (101 sq mi) and its population, predominantly Polynesian, was about 1,600 in 2016. Niue is located in a triangle between Tonga, Samoa, and the Cook Islands. It is 604 kilometers northeast of Tonga.",inline=False)  
+  embed.add_field(name="Capital",value="Alofi",inline=False)
+  embed.add_field(name="Flag",value="<:flag_nu:970287510892728340>",inline=False)
+  embed.add_field(name="Population",value="1,620",inline=False)
+  embed.add_field(name="GDP (PPP)",value="$10 million",inline=False)
+  embed.add_field(name="Currency",value="New Zealand dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -11",inline=False)
+  embed.add_field(name="Dialing Code",value="+683",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+@client.command()
+async def CookIslands(ctx):
+  embed=discord.Embed(title="Cook Islands",color=discord.Colour.orange())
+  embed.add_field(name="Basic Info",value="The Cook Islands is a self-governing island country in the South Pacific Ocean in free association with New Zealand. It comprises 15 islands whose total land area is 240 square kilometres (93 sq mi). The Cook Islands' Exclusive Economic Zone (EEZ) covers 1,960,027 square kilometres (756,771 sq mi) of ocean.",inline=False)  
+  embed.add_field(name="Capital",value="Avarua",inline=False)
+  embed.add_field(name="Flag",value="<:flag_ck:970288261463429180>",inline=False)
+  embed.add_field(name="Population",value="17,459",inline=False)
+  embed.add_field(name="GDP (nominal)",value="$384 billion",inline=False)
+  embed.add_field(name="Currency",value="New Zealand dollar",inline=False)
+  embed.add_field(name="Time Zone",value="UTC -10",inline=False)
+  embed.add_field(name="Dialing Code",value="+682",inline=False)
+  await ctx.send(embed=embed)
+
+
+
+
   
   
 keep_alive()

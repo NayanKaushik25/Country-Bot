@@ -232,7 +232,7 @@ async def Belarus(ctx):
   embed=discord.Embed(title="Belarus",color=discord.Colour.red())
   embed.add_field(name="Basic Info",value="Belarus, officially the Republic of Belarus, is a landlocked country in Eastern Europe. It is bordered by Russia to the east and northeast, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the northwest. Covering an area of 207,600 square kilometres (80,200 sq mi) and with a population of 9.3 million, Belarus is the 13th-largest and the 20th-most populous country in Europe. The country is administratively divided into seven regions. Minsk is the capital and largest city.",inline=False)
   embed.add_field(name="Capital",value="Minsk",inline=False)
-  embed.add_field(name="Flag",value="<flag:by:967733614752202762>",inline=False)
+  embed.add_field(name="Flag",value="<flag_by:1005093131370385498>",inline=False)
   embed.add_field(name="Population",value="9.25 million",inline=False)
   embed.add_field(name="GDP (PPP)",value="$185.88 billion",inline=False)
   embed.add_field(name="Currency",value="Minsk",inline=False)

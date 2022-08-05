@@ -174,7 +174,7 @@ async def Azerbaijan(ctx):
 async def Bahamas(ctx):
   embed=discord.Embed(title="Bahamas",color=discord.Colour.orange())
   embed.add_field(name="Basic Info",value="Bahamas, known officially as the Commonwealth of The Bahamas, is a sovereign country within the Lucayan Archipelago of the West Indies in the Atlantic. It takes up 97% of the Lucayan Archipelago's land area and is home to 88% of the archipelago's population. The archipelagic state consists of more than 3000 islands, cays, and islets in the Atlantic Ocean, and is located north of Cuba and northwest of the island of Hispaniola (split between Haiti and the Dominican Republic) and the Turks and Caicos Islands, southeast of the American state of Florida, and east of the Florida Keys. The capital is Nassau on the island of New Providence.",inline=False)
-  embed.add_field(name="Capital",value="Baku",inline=False)
+  embed.add_field(name="Capital",value="Nassau",inline=False)
   embed.add_field(name="Flag",value="<:flag_bs:967727804114419792>",inline=False)
   embed.add_field(name="Population",value="400,516",inline=False)
   embed.add_field(name="GDP (PPP)",value="$12.61 billion",inline=False)
